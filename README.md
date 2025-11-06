@@ -13,7 +13,7 @@ The challenge is organized into weekly branches, with each week containing 7 day
 │   ├── Day_1/ - Hello World
 │   ├── Day_2/ - Tip Calculator
 │   ├── Day_3/ - Conditional Logic Projects
-│   ├── Day_4/ - [Coming Soon]
+│   ├── Day_4/ - Rock, Paper, Scissors
 │   ├── Day_5/ - [Coming Soon]
 │   ├── Day_6/ - [Coming Soon]
 │   └── Day_7/ - [Coming Soon]
