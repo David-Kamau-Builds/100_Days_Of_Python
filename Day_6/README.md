@@ -31,7 +31,7 @@ Day 6 of the 100 Days of Python challenge - solving hurdles and maze challenges 
 - [x] Navigate initial straight path
 - [x] Implement maze-solving algorithm
 - [x] Use right-hand rule for maze navigation
-- [x] Handle dead ends and complex paths
+- [x] Handle dead ends and complex paths 
 
 ## Notes
 Introduces function definition and the right-hand rule algorithm for maze solving. The solution prioritizes turning right, then moving forward, then turning left as a last resort.
