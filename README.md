@@ -15,7 +15,7 @@ The challenge is organized into weekly branches, with each week containing 7 day
 │   ├── Day_3/ - Conditional Logic Projects
 │   ├── Day_4/ - Rock, Paper, Scissors
 │   ├── Day_5/ - Password Generator
-│   ├── Day_6/ - [Coming Soon]
+│   ├── Day_6/ - Solved Reeborg's World Programming Challenges (Hurdles and Maze)
 │   └── Day_7/ - [Coming Soon]
 ├── Week_2/ (Branch: Week_2) - [Coming Soon]
 ├── Week_3/ (Branch: Week_3) - [Coming Soon]
