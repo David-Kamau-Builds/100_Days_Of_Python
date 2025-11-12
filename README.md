@@ -82,10 +82,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Encoder/decoder with custom shift amounts
 - **Skills**: String manipulation, modulo operations, module imports
 
-### Day 9 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 9 - Secret Auction Program
+- **Concept**: Dictionaries and error handling
+- **Project**: Secret auction bidding platform with input validation
+- **Skills**: Dictionary methods, try/except blocks, OS module, cross-platform compatibility
 
 ### Day 10 - [Coming Soon]
 - **Concept**: TBD
