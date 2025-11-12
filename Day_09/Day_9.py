@@ -49,4 +49,3 @@ else:
         print(f"Our winner is: {winnerUserName}. With a bid of: ${highestBid}")
     else:
         print("No bids were placed.")
-        
