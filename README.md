@@ -87,10 +87,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Secret auction bidding platform with input validation
 - **Skills**: Dictionary methods, try/except blocks, OS module, cross-platform compatibility
 
-### Day 10 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 10 - Calculator
+- **Concept**: Functions as first-class objects
+- **Project**: Interactive calculator with continuous operations
+- **Skills**: Function storage in dictionaries, function references, chaining calculations
 
 ### Day 11 - [Coming Soon]
 - **Concept**: TBD
