@@ -92,10 +92,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Interactive calculator with continuous operations
 - **Skills**: Function storage in dictionaries, function references, chaining calculations
 
-### Day 11 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 11 - Blackjack Game
+- **Concept**: Functions with outputs and game state management
+- **Project**: Command-line Blackjack (21) game
+- **Skills**: Return values, list manipulation, conditional logic, loops
 
 ### Day 12 - [Coming Soon]
 - **Concept**: TBD
