@@ -97,10 +97,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Command-line Blackjack (21) game
 - **Skills**: Return values, list manipulation, conditional logic, loops
 
-### Day 12 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 12 - Number Guessing Game
+- **Concept**: Functions with outputs, difficulty settings, and game loops
+- **Project**: Command-line Number Guessing Game (guess a random number between 1 and 100)
+- **Skills**: `while` loops, function parameters and return values, conditional logic, user input validation
 
 ### Day 13 - [Coming Soon]
 - **Concept**: TBD
