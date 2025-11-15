@@ -1,52 +1,58 @@
-from random import randint
-from art import logo
+import art
+import random
 
-
-EASY_LEVEL_TURNS = 10
-HARD_LEVEL_TURNS = 5
-
-
-def check_answer(user_guess, actual_answer, turns):
-    """Checks answer against guess, returns the number of turns remaining."""
-    if user_guess > actual_answer:
-        print("Too high.")
-        return turns - 1
-    elif user_guess < actual_answer:
-        print("Too low.")
-        return turns - 1
-    else:
-        print(f"You got it! The answer was {actual_answer}")
-
-
-def set_difficulty():
-    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
-    if level == "easy":
-        return EASY_LEVEL_TURNS
-    else:
-        return HARD_LEVEL_TURNS
-
+def clear():
+    print("\n" * 100)
 
 def game():
-    print(logo)
-    print("Welcome to the Number Guessing Game!")
-    print("I'm thinking of a number between 1 and 100.")
-    answer = randint(1, 100)
-    print(f"Pssst, the correct answer is {answer}")
+    print(art.logo)
+    print("Welcome to the number guessing game.")
 
-    turns = set_difficulty()
+    number_to_guess = random.randint(1, 100)
 
-    guess = 0
-    while guess != answer:
-        print(f"You have {turns} attempts remaining to guess the number.")
-        guess = int(input("Make a guess: "))
-        turns = check_answer(guess, answer, turns)
-        if turns == 0:
-            print("You've run out of guesses, you lose.")
-            return
-        elif guess != answer:
-            print("Guess again.")
+    def game_logic():
+        game_difficulty = input("What difficulty do you want? (Easy/Medium/Hard): \n").lower()
 
+        attempts = {
+            "easy": 15,
+            "medium": 10,
+            "hard": 5
+        }
 
+        if game_difficulty not in attempts:
+            retry = input("Invalid input. Try again? (y/n): ")
+            if retry == "y":
+                return game_logic()
+            else:
+                print("Bye. Have a great time.")
+                exit()
 
+        remaining_attempts = attempts[game_difficulty]
+
+        while remaining_attempts > 0:
+            print(f"You have {remaining_attempts} attempts remaining.")
+            user_guess = int(input("What is your guess? "))
+
+            if user_guess == number_to_guess:
+                print(f"You guessed correctly! The number was {number_to_guess}.")
+                exit()
+
+            elif user_guess > number_to_guess:
+                print("Too high.")
+
+            else:
+                print("Too low.")
+
+            remaining_attempts -= 1
+
+        retry = input("You're out of attempts. Do you want to try again? (y/n): ")
+        if retry == "y":
+            clear()
+            return game_logic()
+        else:
+            print("Bye. Have a great time.")
+            exit()
+
+    game_logic()
 
 game()
