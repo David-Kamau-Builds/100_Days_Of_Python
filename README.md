@@ -102,10 +102,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Command-line Number Guessing Game (guess a random number between 1 and 100)
 - **Skills**: `while` loops, function parameters and return values, conditional logic, user input validation
 
-### Day 13 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 13 - Debugging Exercise
+- **Concept**: Debugging, function scope, and list manipulation
+- **Project**: Small debugging task — fix a `mutate` function that transforms a list by doubling items, adding a random integer, and using a helper `maths` module
+- **Skills**: Debugging techniques, loops and list operations, using helper modules, `random.randint`, and practicing with a debugger (breakpoints, Step Into/Step Over)
 
 ### Day 14 - [Coming Soon]
 - **Concept**: TBD
