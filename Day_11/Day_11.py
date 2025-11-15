@@ -1,80 +1,100 @@
 import random
-from art import logo
+import art
+import os
 
+print(art.logo)
+print("Welcome to the BlackJack game.")
 
-def deal_card():
-    """Returns a random card from the deck"""
-    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-    card = random.choice(cards)
-    return card
-
-
-def calculate_score(cards):
-    """Take a list of cards and return the score calculated from the cards"""
-    if sum(cards) == 21 and len(cards) == 2:
-        return 0
-
-    if 11 in cards and sum(cards) > 21:
-        cards.remove(11)
-        cards.append(1)
-
-    return sum(cards)
-
-
-def compare(u_score, c_score):
-    """Compares the user score u_score against the computer score c_score."""
-    if u_score == c_score:
-        return "Draw 🙃"
-    elif c_score == 0:
-        return "Lose, opponent has Blackjack 😱"
-    elif u_score == 0:
-        return "Win with a Blackjack 😎"
-    elif u_score > 21:
-        return "You went over. You lose 😭"
-    elif c_score > 21:
-        return "Opponent went over. You win 😁"
-    elif u_score > c_score:
-        return "You win 😃"
+def clear_screen():
+    if os.getenv("TERM"):
+        os.system('cls' if os.name == 'nt' else 'clear')
     else:
-        return "You lose 😤"
+        print("\n" * 80)
 
 
-def play_game():
-    print(logo)
+cardDictionary = {
+    1: 1,
+    2: 2,
+    3: 3,
+    4: 4,
+    5: 5,
+    6: 6,
+    7: 7,
+    8: 8,
+    9: 9,
+    10: 10,
+    "Jack": 10,
+    "Queen": 10,
+    "King": 10,
+    "Ace": [1, 11]
+}
+
+def draw_user_card():
+    card = random.choice(list(cardDictionary.keys()))
+    if card == "Ace":
+        choice = input("You drew an Ace! Enter '1' or '11': ")
+        while choice not in ["1", "11"]:
+            choice = input("Invalid choice. Enter '1' or '11': ")
+        return int(choice)
+    return cardDictionary[card]
+
+def draw_computer_card(current_total):
+    card = random.choice(list(cardDictionary.keys()))
+    if card == "Ace":
+        return 11 if current_total + 11 <= 21 else 1
+    return cardDictionary[card]
+
+def calculate_total(card_list):
+    return sum(card_list)
+
+def compare_scores(user_total, computer_total):
+    if user_total == computer_total:
+        return "It's a draw."
+    elif user_total > 21:
+        return "You lost. You busted."
+    elif computer_total > 21:
+        return "Computer busted. You win!"
+    elif user_total > computer_total:
+        return "You win!"
+    else:
+        return "Computer wins."
+
+def play():
+    print(art.logo)
     user_cards = []
     computer_cards = []
-    computer_score = -1
-    user_score = -1
-    is_game_over = False
 
-    for _ in range(2):
-        user_cards.append(deal_card())
-        computer_cards.append(deal_card())
+    user_cards.append(draw_user_card())
+    user_cards.append(draw_user_card())
 
-    while not is_game_over:
-        user_score = calculate_score(user_cards)
-        computer_score = calculate_score(computer_cards)
-        print(f"Your cards: {user_cards}, current score: {user_score}")
-        print(f"Computer's first card: {computer_cards[0]}")
+    computer_cards.append(draw_computer_card(0))
+    computer_cards.append(draw_computer_card(sum(computer_cards)))
 
-        if user_score == 0 or computer_score == 0 or user_score > 21:
-            is_game_over = True
+    while True:
+        user_total = calculate_total(user_cards)
+        print(f"Your cards: {user_cards}, total: {user_total}")
+        print(f"Computer first card: {computer_cards[0]}")
+
+        if user_total >= 21:
+            break
+
+        choice = input("Type 'y' to draw another card, 'n' to stop: ").lower()
+        if choice == "y":
+            user_cards.append(draw_user_card())
         else:
-            user_should_deal = input("Type 'y' to get another card, type 'n' to pass: ")
-            if user_should_deal == "y":
-                user_cards.append(deal_card())
-            else:
-                is_game_over = True
+            break
 
-    while computer_score != 0 and computer_score < 17:
-        computer_cards.append(deal_card())
-        computer_score = calculate_score(computer_cards)
+    while calculate_total(computer_cards) < 17:
+        computer_cards.append(draw_computer_card(calculate_total(computer_cards)))
 
-    print(f"Your final hand: {user_cards}, final score: {user_score}")
-    print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
-    print(compare(user_score, computer_score))
+    user_total = calculate_total(user_cards)
+    computer_total = calculate_total(computer_cards)
+
+    print(f"\nYour final hand: {user_cards}, final total: {user_total}")
+    print(f"Computer final hand: {computer_cards}, final total: {computer_total}")
+    print(compare_scores(user_total, computer_total))
 
 
-while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
-    print("\n" * 20)
-    play_game()
+while input("Do you want to play Blackjack? (y/n): ").lower() == "y":
+    clear_screen()
+    play()
