@@ -2,10 +2,7 @@ import art
 import os
 
 def clear_screen():
-    if os.getenv("TERM"):
-        os.system('cls' if os.name == 'nt' else 'clear')
-    else:
-        print("\n" * 80)
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 bidDictionary = {}
 continueBidding = "y"
