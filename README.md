@@ -5,8 +5,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 
 ## Progress Overview
 - ✅ **Week 1**: Python Fundamentals (Days 1-7) - Complete
-- 🔄 **Week 2**: Functions & Logic (Days 8-14) - In Progress
-- ⏳ **Week 3**: Data Structures (Days 15-21) - Coming Soon
+- ✅ **Week 2**: Functions & Logic (Days 8-14) - Complete
+- 🔄 **Week 3**: Data Structures (Days 15-21) - Coming Soon
 - ⏳ **Week 4**: Object-Oriented Programming (Days 22-28) - Coming Soon
 - ⏳ **Week 5**: File I/O & Error Handling (Days 29-35) - Coming Soon
 - ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
