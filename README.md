@@ -107,10 +107,20 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Small debugging task — fix a `mutate` function that transforms a list by doubling items, adding a random integer, and using a helper `maths` module
 - **Skills**: Debugging techniques, loops and list operations, using helper modules, `random.randint`, and practicing with a debugger (breakpoints, Step Into/Step Over)
 
-### Day 14 - [Coming Soon]
-- **Concept**: TBD
-- **Project**: TBD
-- **Skills**: TBD
+### Day 14 - Higher or Lower Game
+- **Concept**: Functions with default parameters, game loops, and data structures
+- **Project**: Higher or Lower guessing game where players compare two famous people and guess who has more Instagram followers
+- **Skills**: Functions with default parameters, module imports, game state management, string formatting with f-strings, conditional logic, random selection
+
+**Week 2 Learning Outcomes:**
+- Advanced function concepts (parameters, return values, default arguments, functions as objects)
+- Dictionaries as core data structures and for function dispatch patterns
+- Error handling with try/except blocks
+- Game development patterns and game state management
+- String manipulation and formatting
+- Module organization and imports
+- Debugging and code inspection techniques
+- Building more complex interactive applications
 
 </details>
 
