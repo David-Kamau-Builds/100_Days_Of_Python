@@ -6,7 +6,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 ## Progress Overview
 - ✅ **Week 1**: Python Fundamentals (Days 1-7) - Complete
 - ✅ **Week 2**: Functions & Logic (Days 8-14) - Complete
-- 🔄 **Week 3**: Data Structures (Days 15-21) - Coming Soon
+- 🔄 **Week 3**: Data Structures (Days 15-21) - In Progress
 - ⏳ **Week 4**: Object-Oriented Programming (Days 22-28) - Coming Soon
 - ⏳ **Week 5**: File I/O & Error Handling (Days 29-35) - Coming Soon
 - ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
@@ -124,10 +124,15 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 
 </details>
 
-<details>
-<summary><strong>📁 Week 3 - Data Structures (Days 15-21) - Coming Soon</strong></summary>
+<details open>
+<summary><strong>📁 Week 3 - Data Structures (Days 15-21)</strong></summary>
 
-Content will be added as the week progresses...
+### Day 15 - Coffee Machine Simulator
+- **Concept**: Data Structures (Dictionaries), Modular Functions, and Program Loops.
+- **Project**: A simulator for a coin-operated coffee machine that manages resources (water, milk, coffee) and processes transactions.
+- **Skills**: Dictionaries for data management, function modularity, global variable scope, `while` loops for continuous operation, input validation, and f-string formatting.
+
+... More days to come ...
 
 </details>
 
