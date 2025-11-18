@@ -132,6 +132,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A simulator for a coin-operated coffee machine that manages resources (water, milk, coffee) and processes transactions.
 - **Skills**: Dictionaries for data management, function modularity, global variable scope, `while` loops for continuous operation, input validation, and f-string formatting.
 
+### Day 16 - Coffee Machine in OOP
+- **Concept**: Introduction to Object-Oriented Programming (OOP).
+- **Project**: Refactored the Coffee Machine from Day 15 using classes and objects (`MenuItem`, `Menu`, `CoffeeMaker`, `MoneyMachine`).
+- **Skills**: Class creation, object attributes and methods, and structuring code into logical, reusable components.
+
 ... More days to come ...
 
 </details>
