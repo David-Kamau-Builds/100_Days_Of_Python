@@ -137,6 +137,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Refactored the Coffee Machine from Day 15 using classes and objects (`MenuItem`, `Menu`, `CoffeeMaker`, `MoneyMachine`).
 - **Skills**: Class creation, object attributes and methods, and structuring code into logical, reusable components.
 
+### Day 17 - The Quiz Project
+- **Concept**: Object-Oriented Programming (OOP) and Modular Design.
+- **Project**: A complete quiz game built with multiple classes (`Question`, `QuizBrain`) to manage the game's data and logic separately.
+- **Skills**: OOP principles (classes, objects, attributes, methods), modular code structure, transforming data into objects, and managing program flow with a `while` loop.
+
 ... More days to come ...
 
 </details>
