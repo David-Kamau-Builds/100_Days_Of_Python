@@ -142,6 +142,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A complete quiz game built with multiple classes (`Question`, `QuizBrain`) to manage the game's data and logic separately.
 - **Skills**: OOP principles (classes, objects, attributes, methods), modular code structure, transforming data into objects, and managing program flow with a `while` loop.
 
+### Day 18 - Turtle & GUI Programming
+- **Concept**: Turtle Graphics, GUI, and External Libraries.
+- **Project**: A replica of a Damien Hirst "spot painting" created by extracting colors from an image and using the `turtle` module to draw on a GUI canvas.
+- **Skills**: Using the `turtle` module, managing a GUI window, installing and using external libraries (`colorgram`), working with tuples for RGB colors, and procedural art generation.
+
 ... More days to come ...
 
 </details>
