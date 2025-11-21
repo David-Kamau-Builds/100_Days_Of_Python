@@ -147,6 +147,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A replica of a Damien Hirst "spot painting" created by extracting colors from an image and using the `turtle` module to draw on a GUI canvas.
 - **Skills**: Using the `turtle` module, managing a GUI window, installing and using external libraries (`colorgram`), working with tuples for RGB colors, and procedural art generation.
 
+### Day 19 - Turtle Race & Event Listeners
+- **Concept**: State Management, Multiple Object Instances, and Higher-Order Functions.
+- **Project**: An interactive turtle racing game where the user bets on a winner, and multiple turtle objects race to a finish line.
+- **Skills**: Managing program state, creating multiple instances from a class, using event listeners (`screen.ontimer()`), and handling user input with pop-up dialogs (`screen.textinput()`).
+
 ... More days to come ...
 
 </details>
