@@ -152,6 +152,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An interactive turtle racing game where the user bets on a winner, and multiple turtle objects race to a finish line.
 - **Skills**: Managing program state, creating multiple instances from a class, using event listeners (`screen.ontimer()`), and handling user input with pop-up dialogs (`screen.textinput()`).
 
+### Day 20 - Building the Snake Game (Part 1)
+- **Concept**: Object-Oriented Design, Animation Control, and Event Handling.
+- **Project**: The first part of building the classic Snake game, focusing on creating the snake's body and controlling its movement.
+- **Skills**: OOP class design, smooth animation with `screen.tracer(0)` and `screen.update()`, controlling game speed with `time.sleep()`, and handling user input with `screen.listen()` and `screen.onkey()`.
+
 ... More days to come ...
 
 </details>
