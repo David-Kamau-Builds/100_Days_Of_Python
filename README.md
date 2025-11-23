@@ -6,8 +6,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 ## Progress Overview
 - ✅ **Week 1**: Python Fundamentals (Days 1-7) - Complete
 - ✅ **Week 2**: Functions & Logic (Days 8-14) - Complete
-- 🔄 **Week 3**: Data Structures (Days 15-21) - In Progress
-- ⏳ **Week 4**: Object-Oriented Programming (Days 22-28) - Coming Soon
+- ✅ **Week 3**: OOP & GUI (Days 15-21) - Complete
+- 🔄 **Week 4**: Object-Oriented Programming (Days 22-28) - In Progress
 - ⏳ **Week 5**: File I/O & Error Handling (Days 29-35) - Coming Soon
 - ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
 - ⏳ **Week 7**: Data Analysis (Days 43-49) - Coming Soon
@@ -157,12 +157,24 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: The first part of building the classic Snake game, focusing on creating the snake's body and controlling its movement.
 - **Skills**: OOP class design, smooth animation with `screen.tracer(0)` and `screen.update()`, controlling game speed with `time.sleep()`, and handling user input with `screen.listen()` and `screen.onkey()`.
 
-... More days to come ...
+### Day 21 - Building the Snake Game (Part 2)
+- **Concept**: Class Inheritance and Collision Detection.
+- **Project**: Completed the Snake game by adding food, a scoreboard, and collision detection logic.
+- **Skills**: Using class inheritance, detecting collisions between game objects, and using list slicing.
+
+**Week 3 Learning Outcomes:**
+- Deep understanding of Object-Oriented Programming (classes, objects, attributes, methods, and inheritance).
+- Structuring complex applications by separating data and logic into different classes.
+- Building graphical user interfaces (GUIs) with the `turtle` module.
+- Managing animation and program state for interactive applications.
+- Handling user input through event listeners for real-time control.
+- Practical application of data structures like lists and dictionaries within an OOP context.
+- Using external Python libraries to extend program functionality.
 
 </details>
 
 <details>
-<summary><strong>📁 Week 4 - Object-Oriented Programming (Days 22-28) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 4 - Object-Oriented Programming (Days 22-28) - In Progress</strong></summary>
 
 Content will be added as the week progresses...
 
