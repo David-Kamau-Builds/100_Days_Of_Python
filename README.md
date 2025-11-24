@@ -173,10 +173,15 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 
 </details>
 
-<details>
-<summary><strong>📁 Week 4 - Object-Oriented Programming (Days 22-28) - In Progress</strong></summary>
+<details open>
+<summary><strong>📁 Week 4 - OOP & GUI (Days 22-28) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 22 - Building the Pong Game
+- **Concept**: OOP Class Interaction and Game Logic.
+- **Project**: A complete implementation of the classic Pong arcade game, featuring two paddles, a ball, and a scoreboard.
+- **Skills**: Designing interacting classes (`Ball`, `Paddle`, `Scoreboard`), handling collision detection, and managing game state in a main loop.
+
+... More days to come ...
 
 </details>
 
