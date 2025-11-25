@@ -181,6 +181,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A complete implementation of the classic Pong arcade game, featuring two paddles, a ball, and a scoreboard.
 - **Skills**: Designing interacting classes (`Ball`, `Paddle`, `Scoreboard`), handling collision detection, and managing game state in a main loop.
 
+### Day 23 - The Turtle Crossing Game
+- **Concept**: OOP Design, Class Interaction, and Dynamic Difficulty.
+- **Project**: A "Frogger"-style game where a player turtle must cross a road with moving cars that get faster with each level.
+- **Skills**: Separating concerns into multiple classes (`Player`, `CarManager`, `Scoreboard`), detecting collision with a list of objects, and dynamically increasing game difficulty.
+
 ... More days to come ...
 
 </details>
