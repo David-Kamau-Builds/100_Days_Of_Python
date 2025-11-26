@@ -186,6 +186,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A "Frogger"-style game where a player turtle must cross a road with moving cars that get faster with each level.
 - **Skills**: Separating concerns into multiple classes (`Player`, `CarManager`, `Scoreboard`), detecting collision with a list of objects, and dynamically increasing game difficulty.
 
+### Day 24 - Files, Directories, and Paths
+- **Concept**: File I/O and Path Management.
+- **Project**: An automated mail merge script that reads a list of names and a letter template to generate personalized letters.
+- **Skills**: Reading files (`readlines()`, `read()`), writing to new files, string manipulation (`strip()`, `replace()`), and using relative file paths.
+
 ... More days to come ...
 
 </details>
