@@ -191,6 +191,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated mail merge script that reads a list of names and a letter template to generate personalized letters.
 - **Skills**: Reading files (`readlines()`, `read()`), writing to new files, string manipulation (`strip()`, `replace()`), and using relative file paths.
 
+### Day 25 - Working with CSV Data and Pandas
+- **Concept**: Data Analysis with the Pandas Library.
+- **Project**: An interactive U.S. States guessing game that reads coordinates from a CSV file and writes missed states to a new file.
+- **Skills**: Reading CSV files with `pandas.read_csv()`, using DataFrames and Series for data selection, and writing DataFrames to CSV files with `.to_csv()`.
+
 ... More days to come ...
 
 </details>
