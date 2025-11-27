@@ -44,3 +44,4 @@ while len(guessed_states) < 50:
         guessed_states.append(answer_state)
         state_data = data[data.state == answer_state]
         state_writer.write_state(answer_state, state_data.x.item(), state_data.y.item())
+        
