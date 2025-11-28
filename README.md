@@ -187,14 +187,19 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Skills**: Separating concerns into multiple classes (`Player`, `CarManager`, `Scoreboard`), detecting collision with a list of objects, and dynamically increasing game difficulty.
 
 ### Day 24 - Files, Directories, and Paths
-- **Concept**: File I/O and Path Management.
-- **Project**: An automated mail merge script that reads a list of names and a letter template to generate personalized letters.
-- **Skills**: Reading files (`readlines()`, `read()`), writing to new files, string manipulation (`strip()`, `replace()`), and using relative file paths.
+- **Concept**: File I/O and Directory Management.
+- **Project**: A Mail Merge tool that reads a list of names from one file and uses them to generate personalized invitation letters from a template.
+- **Skills**: Opening, reading, and writing files (`with open(...)`), using `readlines()` to get a list of lines, and using `replace()` to customize strings.
 
 ### Day 25 - Working with CSV Data and Pandas
 - **Concept**: Data Analysis with the Pandas Library.
-- **Project**: An interactive U.S. States guessing game that reads coordinates from a CSV file and writes missed states to a new file.
-- **Skills**: Reading CSV files with `pandas.read_csv()`, using DataFrames and Series for data selection, and writing DataFrames to CSV files with `.to_csv()`.
+- **Project**: A U.S. States guessing game where the user clicks on a map, and the state's name is written on the map if the guess is correct.
+- **Skills**: Reading CSV files with Pandas, working with DataFrames and Series, and using `turtle` to place text at specific x, y coordinates.
+
+### Day 26 - List and Dictionary Comprehensions
+- **Concept**: List and Dictionary Comprehensions.
+- **Project**: A NATO Phonetic Alphabet generator that converts a user's word into a list of corresponding code words.
+- **Skills**: Using list and dictionary comprehensions for concise code, and iterating over a Pandas DataFrame with `iterrows()`.
 
 ... More days to come ...
 
