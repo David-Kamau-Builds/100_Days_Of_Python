@@ -201,6 +201,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A NATO Phonetic Alphabet generator that converts a user's word into a list of corresponding code words.
 - **Skills**: Using list and dictionary comprehensions for concise code, and iterating over a Pandas DataFrame with `iterrows()`.
 
+### Day 27 - Tkinter, *args, **kwargs and Creating GUI Programs
+- **Concept**: GUI Programming with Tkinter and Advanced Function Arguments.
+- **Project**: A Mile to Km converter GUI application built with `tkinter`.
+- **Skills**: Creating windows and widgets, managing layout with `grid()`, using `*args` for unlimited positional arguments, and `**kwargs` for unlimited keyword arguments.
+
 ... More days to come ...
 
 </details>
