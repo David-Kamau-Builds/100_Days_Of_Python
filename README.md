@@ -124,7 +124,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 
 </details>
 
-<details open>
+<details>
 <summary><strong>📁 Week 3 - Data Structures (Days 15-21)</strong></summary>
 
 ### Day 15 - Coffee Machine Simulator
@@ -173,8 +173,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 
 </details>
 
-<details open>
-<summary><strong>📁 Week 4 - OOP & GUI (Days 22-28) - In Progress</strong></summary>
+<details>
+<summary><strong>📁 Week 4 - OOP & GUI (Days 22-28)</strong></summary>
 
 ### Day 22 - Building the Pong Game
 - **Concept**: OOP Class Interaction and Game Logic.
