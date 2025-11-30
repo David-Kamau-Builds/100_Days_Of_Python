@@ -7,8 +7,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 1**: Python Fundamentals (Days 1-7) - Complete
 - ✅ **Week 2**: Functions & Logic (Days 8-14) - Complete
 - ✅ **Week 3**: OOP & GUI (Days 15-21) - Complete
-- 🔄 **Week 4**: Object-Oriented Programming (Days 22-28) - In Progress
-- ⏳ **Week 5**: File I/O & Error Handling (Days 29-35) - Coming Soon
+- ✅ **Week 4**: OOP & GUI (Days 22-28) - Complete
+- 🔄 **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - In Progress
 - ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
 - ⏳ **Week 7**: Data Analysis (Days 43-49) - Coming Soon
 - ⏳ **Week 8**: Web Development (Days 50-56) - Coming Soon
@@ -206,12 +206,23 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A Mile to Km converter GUI application built with `tkinter`.
 - **Skills**: Creating windows and widgets, managing layout with `grid()`, using `*args` for unlimited positional arguments, and `**kwargs` for unlimited keyword arguments.
 
-... More days to come ...
+### Day 28 - Tkinter, Dynamic Typing and the Pomodoro GUI Application
+- **Concept**: State Management in GUI, Dynamic Typing, and UI/UX Design.
+- **Project**: A Pomodoro Technique timer application to help manage work and break intervals, featuring a countdown timer and visual progress tracking.
+- **Skills**: Advanced `tkinter` (canvas for images and text), managing application flow with `after()`, and handling application state.
+
+**Week 4 Learning Outcomes:**
+- Solidified Object-Oriented Programming (OOP) skills by building games with interacting classes.
+- Gained experience in file I/O for reading from and writing to files.
+- Introduced to data analysis and manipulation using the Pandas library with CSV files.
+- Mastered Pythonic constructs like list and dictionary comprehensions.
+- Acquired foundational skills in building graphical user interfaces (GUIs) with `tkinter`.
+- Learned to manage application state and user events in GUI applications.
 
 </details>
 
 <details>
-<summary><strong>📁 Week 5 - File I/O & Error Handling (Days 29-35) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 5 - File I/O, Error Handling & APIs (Days 29-35) - In Progress</strong></summary>
 
 Content will be added as the week progresses...
 
