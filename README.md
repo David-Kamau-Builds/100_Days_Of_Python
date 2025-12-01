@@ -224,7 +224,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 <details>
 <summary><strong>📁 Week 5 - File I/O, Error Handling & APIs (Days 29-35) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 29 - Password Manager with Encryption
+- **Concept**: Data Security, Advanced GUI Programming, and File Encryption.
+- **Project**: A secure password manager application with encryption capabilities, featuring password generation, encrypted storage, and search functionality.
+- **Skills**: Cryptography with Fernet encryption, advanced Tkinter GUI with themed widgets, pandas for CSV data management, clipboard integration, and comprehensive error handling.
 
 </details>
 
