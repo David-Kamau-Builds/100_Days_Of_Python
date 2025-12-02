@@ -229,6 +229,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A secure password manager application with encryption capabilities, featuring password generation, encrypted storage, and search functionality.
 - **Skills**: Cryptography with Fernet encryption, advanced Tkinter GUI with themed widgets, pandas for CSV data management, clipboard integration, and comprehensive error handling.
 
+### Day 30 - Errors, Exceptions and JSON Data
+- **Concept**: Errors, Exceptions, and JSON Data.
+- **Project**: A secure password manager application with encryption capabilities, featuring password generation, encrypted storage, and search functionality.
+- **Skills**: Cryptography with Fernet encryption, advanced Tkinter GUI with themed widgets, pandas for CSV data management, clipboard integration, and comprehensive error handling.
 </details>
 
 <details>
