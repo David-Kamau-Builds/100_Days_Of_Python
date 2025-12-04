@@ -238,6 +238,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Concept**: Advanced GUI Programming with Timed Events and Data Persistence.
 - **Project**: French language learning flashcard application with automatic card flipping, progress tracking, and personalized learning experience.
 - **Skills**: Canvas widget layering, timer management with `window.after()`, CSV file handling for progress tracking, dynamic data updates, and user experience design.
+
+### Day 32 - Send Email (smtplib) & Manage Dates
+- **Concept**: Email Automation, Date Handling, and Environment Security.
+- **Project**: Automated birthday wisher that sends personalized birthday emails and a daily motivational quote sender.
+- **Skills**: SMTP email automation with TLS encryption, datetime operations for scheduling, pandas data filtering, template-based content generation, and secure credential management with environment variables.
 </details>
 
 <details>
