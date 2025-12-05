@@ -243,6 +243,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Concept**: Email Automation, Date Handling, and Environment Security.
 - **Project**: Automated birthday wisher that sends personalized birthday emails and a daily motivational quote sender.
 - **Skills**: SMTP email automation with TLS encryption, datetime operations for scheduling, pandas data filtering, template-based content generation, and secure credential management with environment variables.
+
+### Day 33 - API Endpoints & API Parameters - ISS Overhead Notifier
+- **Concept**: API Integration, Real-time Monitoring, and Automated Notifications.
+- **Project**: International Space Station overhead notifier that tracks ISS position and sends email alerts during optimal viewing conditions.
+- **Skills**: Multiple API integration (ISS Position, Sunrise-Sunset), JSON data processing, proximity detection algorithms, continuous monitoring loops, comprehensive error handling, and environment-based configuration.
 </details>
 
 <details>
