@@ -248,6 +248,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Concept**: API Integration, Real-time Monitoring, and Automated Notifications.
 - **Project**: International Space Station overhead notifier that tracks ISS position and sends email alerts during optimal viewing conditions.
 - **Skills**: Multiple API integration (ISS Position, Sunrise-Sunset), JSON data processing, proximity detection algorithms, continuous monitoring loops, comprehensive error handling, and environment-based configuration.
+
+### Day 34 - API Practice - Creating a GUI Quiz App
+- **Concept**: API Integration with GUI Applications and MVC Architecture.
+- **Project**: Quizzler trivia quiz application that fetches questions from Open Trivia Database API and presents them in an interactive Tkinter interface.
+- **Skills**: API data fetching with requests library, HTML entity decoding, advanced Tkinter canvas widgets, image buttons, visual feedback with timed transitions, MVC design pattern, and separation of concerns across multiple modules.
 </details>
 
 <details>
