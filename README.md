@@ -8,7 +8,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 2**: Functions & Logic (Days 8-14) - Complete
 - ✅ **Week 3**: OOP & GUI (Days 15-21) - Complete
 - ✅ **Week 4**: OOP & GUI (Days 22-28) - Complete
-- 🔄 **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - In Progress
+- ✅ **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - Complete
 - ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
 - ⏳ **Week 7**: Data Analysis (Days 43-49) - Coming Soon
 - ⏳ **Week 8**: Web Development (Days 50-56) - Coming Soon
@@ -222,7 +222,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 5 - File I/O, Error Handling & APIs (Days 29-35) - In Progress</strong></summary>
+<summary><strong>📁 Week 5 - File I/O, Error Handling & APIs (Days 29-35)</strong></summary>
 
 ### Day 29 - Password Manager with Encryption
 - **Concept**: Data Security, Advanced GUI Programming, and File Encryption.
@@ -253,6 +253,22 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Concept**: API Integration with GUI Applications and MVC Architecture.
 - **Project**: Quizzler trivia quiz application that fetches questions from Open Trivia Database API and presents them in an interactive Tkinter interface.
 - **Skills**: API data fetching with requests library, HTML entity decoding, advanced Tkinter canvas widgets, image buttons, visual feedback with timed transitions, MVC design pattern, and separation of concerns across multiple modules.
+
+### Day 35 - Keys, Authentication & Environment Variables - Rain Alert
+- **Concept**: API Authentication, SMS Integration, and Secure Configuration Management.
+- **Project**: Automated weather monitoring system that checks forecast for rain and sends SMS alerts via Twilio.
+- **Skills**: OpenWeatherMap API integration, Twilio SMS service, environment variable management for credentials, weather data processing with condition codes, proxy support, and configuration validation.
+
+**Week 5 Learning Outcomes:**
+- Mastered file I/O operations and data persistence with CSV and JSON formats.
+- Implemented encryption and security best practices for sensitive data storage.
+- Integrated multiple external APIs for real-world applications.
+- Built automated notification systems with email and SMS.
+- Applied error handling and exception management throughout applications.
+- Combined GUI programming with API data for interactive applications.
+- Managed credentials securely using environment variables.
+- Created practical automation tools for daily use.
+
 </details>
 
 <details>
