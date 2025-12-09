@@ -9,7 +9,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 3**: OOP & GUI (Days 15-21) - Complete
 - ✅ **Week 4**: OOP & GUI (Days 22-28) - Complete
 - ✅ **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - Complete
-- ⏳ **Week 6**: APIs & Web Scraping (Days 36-42) - Coming Soon
+- 🔄 **Week 6**: APIs & Web Scraping (Days 36-42) - In Progress
 - ⏳ **Week 7**: Data Analysis (Days 43-49) - Coming Soon
 - ⏳ **Week 8**: Web Development (Days 50-56) - Coming Soon
 - ⏳ **Week 9**: GUI Applications (Days 57-63) - Coming Soon
@@ -272,9 +272,12 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 6 - APIs & Web Scraping (Days 36-42) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 6 - APIs & Web Scraping (Days 36-42) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 36 - Stock Trading News Alert Project
+- **Concept**: Financial Data API Integration and Multi-Platform Notifications.
+- **Project**: Automated stock monitoring system that tracks stock price changes and sends WhatsApp notifications with relevant news articles when significant price movements occur.
+- **Skills**: AlphaVantage API integration for stock prices and news sentiment, percentage change calculations, Twilio WhatsApp messaging, datetime and timezone handling, news aggregation and formatting, conditional alert thresholds, and error handling for API limits.
 
 </details>
 
