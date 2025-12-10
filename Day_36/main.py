@@ -104,7 +104,7 @@ for art in extracted_articles:
 
 
 
-if abs(pct_diff) > -5:
+if abs(pct_diff) > 5:
     client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
     for art in extracted_articles:
         message = (
