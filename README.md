@@ -279,6 +279,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Automated stock monitoring system that tracks stock price changes and sends WhatsApp notifications with relevant news articles when significant price movements occur.
 - **Skills**: AlphaVantage API integration for stock prices and news sentiment, percentage change calculations, Twilio WhatsApp messaging, datetime and timezone handling, news aggregation and formatting, conditional alert thresholds, and error handling for API limits.
 
+### Day 37 - Habit Tracking Project - API Post Requests & Headers
+- **Concept**: Advanced HTTP Methods, API Authentication, and Habit Tracking.
+- **Project**: Pixela habit tracker integration that creates visual graphs of daily activities using POST, PUT, and DELETE requests with custom headers for authentication.
+- **Skills**: Advanced HTTP methods (POST, PUT, DELETE), custom headers for API authentication, object-oriented API client design, comprehensive error handling, environment variable configuration, and habit tracking with data visualization.
+
 </details>
 
 <details>
