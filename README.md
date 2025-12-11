@@ -284,6 +284,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Pixela habit tracker integration that creates visual graphs of daily activities using POST, PUT, and DELETE requests with custom headers for authentication.
 - **Skills**: Advanced HTTP methods (POST, PUT, DELETE), custom headers for API authentication, object-oriented API client design, comprehensive error handling, environment variable configuration, and habit tracking with data visualization.
 
+### Day 38 - Workout Tracking Using Google Sheets
+- **Concept**: Natural Language Processing APIs, Multiple Authentication Methods, and Cloud Data Storage.
+- **Project**: Exercise tracker that uses natural language processing to analyze workout descriptions and automatically logs data to Google Sheets via Sheety API.
+- **Skills**: Nutritionix API for exercise analysis, multiple authentication methods (API keys, basic auth, bearer tokens), Google Sheets integration via Sheety, natural language processing, personalized calorie calculations, and real-time data logging.
+
 </details>
 
 <details>
