@@ -289,6 +289,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Exercise tracker that uses natural language processing to analyze workout descriptions and automatically logs data to Google Sheets via Sheety API.
 - **Skills**: Nutritionix API for exercise analysis, multiple authentication methods (API keys, basic auth, bearer tokens), Google Sheets integration via Sheety, natural language processing, personalized calorie calculations, and real-time data logging.
 
+### Day 39 - Capstone Part 1 - Flight Deal Finder
+- **Concept**: Multiple API Integration, Data Management, and Automated Monitoring Systems.
+- **Project**: Automated flight deal tracking system that monitors flight prices and sends notifications when deals are found, integrating Amadeus, Sheety, and Twilio APIs.
+- **Skills**: Amadeus API for flight data and OAuth2 authentication, Google Sheets integration via Sheety API, multi-channel notifications (SMS/WhatsApp) via Twilio, automated price monitoring, IATA code lookup, and modular architecture design.
+
 </details>
 
 <details>
