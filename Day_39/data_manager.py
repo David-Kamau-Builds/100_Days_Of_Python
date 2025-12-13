@@ -1,33 +1,30 @@
 import os
+import pprint
 import requests
-from requests.auth import HTTPBasicAuth
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
-SHEETY_PRICES_ENDPOINT = os.environ.get("SHEETY_PRICES_ENDPOINT", "your_sheety_endpoint")
+SHEETY_BEARER_TOKEN = os.getenv("SHEETY_BEARER_TOKEN")
+SHEETY_ENDPOINT = os.getenv("SHEETY_ENDPOINT")
+
+sheety_headers = {
+    "Authorization": f"Bearer {SHEETY_BEARER_TOKEN}",
+    "Content-Type": "application/json",
+}
 
 class DataManager:
-
     def __init__(self):
-        self._user = os.environ["SHEETY_USERNAME"]
-        self._password = os.environ["SHEETY_PASSWORD"]
-        self._authorization = HTTPBasicAuth(self._user, self._password)
-        self.destination_data = {}
+        self.destination_data = []
 
     def get_destination_data(self):
-        # Use the Sheety API to GET all the data in that sheet and print it out.
-        response = requests.get(url=SHEETY_PRICES_ENDPOINT, auth=self._authorization)
+        response = requests.get(SHEETY_ENDPOINT, headers=sheety_headers)
         data = response.json()
         self.destination_data = data["prices"]
-        # Try importing pretty print and printing the data out again using pprint() to see it formatted.
-        # pprint(data)
+        pprint.pprint(self.destination_data)
         return self.destination_data
 
-    # In the DataManager Class make a PUT request and use the row id from sheet_data
-    # to update the Google Sheet with the IATA codes. (Do this using code).
-    def update_destination_codes(self):
+    def update_destination_data(self):
         for city in self.destination_data:
             new_data = {
                 "price": {
@@ -35,8 +32,13 @@ class DataManager:
                 }
             }
             response = requests.put(
-                url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
+                url=f"{SHEETY_ENDPOINT}/{city['id']}",
                 json=new_data,
-                auth=self._authorization
+                headers=sheety_headers
             )
             print(response.text)
+
+
+data_manager = DataManager()
+data_manager.get_destination_data()
+data_manager.update_destination_data()

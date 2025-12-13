@@ -54,6 +54,10 @@ The project follows a modular design with separate classes for different respons
 - **NotificationManager**: Handles SMS and WhatsApp notifications via Twilio
 - **Main**: Orchestrates the entire workflow and business logic
 
+## Demo
+
+See [WhatsApp_message.jpeg](./WhatsApp_message.jpeg) for an example of the flight deal alert notification received via WhatsApp when a lower price is detected.
+
 ## Setup Requirements
 
 1. **Amadeus API**: Register for flight search API credentials
@@ -61,3 +65,12 @@ The project follows a modular design with separate classes for different respons
 3. **Sheety Account**: Connect Google Sheets to Sheety for API access
 4. **Twilio Account**: Set up SMS and WhatsApp messaging services
 5. **Environment Variables**: Configure all API credentials securely
+
+## How It Works
+
+1. **Data Initialization**: Reads destination cities and target prices from Google Sheets
+2. **Airport Code Lookup**: Automatically finds and updates missing IATA codes for cities
+3. **Flight Monitoring**: Searches for flights from origin to each destination within the next 6 months
+4. **Deal Detection**: Compares found flight prices against target thresholds
+5. **Notification Delivery**: Sends WhatsApp/SMS alerts when deals are discovered
+6. **Data Persistence**: Updates Google Sheets with new airport codes for future use
