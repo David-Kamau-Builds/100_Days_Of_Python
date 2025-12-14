@@ -294,6 +294,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Automated flight deal tracking system that monitors flight prices and sends notifications when deals are found, integrating Amadeus, Sheety, and Twilio APIs.
 - **Skills**: Amadeus API for flight data and OAuth2 authentication, Google Sheets integration via Sheety API, multi-channel notifications (SMS/WhatsApp) via Twilio, automated price monitoring, IATA code lookup, and modular architecture design.
 
+### Day 40 - Capstone Part 2 - Flight Club
+- **Concept**: Customer Management, Email Automation, and Enhanced Notification Systems.
+- **Project**: Enhanced flight deal finder with email notification capabilities for multiple customers, creating a complete flight club notification system with customer database management.
+- **Skills**: Customer database management via Google Sheets, bulk email processing with SMTP, multi-channel notifications (Email + WhatsApp), enhanced error handling, USD currency standardization, and scalable notification architecture.
+
 </details>
 
 <details>
