@@ -299,6 +299,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Enhanced flight deal finder with email notification capabilities for multiple customers, creating a complete flight club notification system with customer database management.
 - **Skills**: Customer database management via Google Sheets, bulk email processing with SMTP, multi-channel notifications (Email + WhatsApp), enhanced error handling, USD currency standardization, and scalable notification architecture.
 
+### Day 41 - Introduction to HTML
+- **Concept**: Web Foundations and HTML5 Document Structure.
+- **Project**: Personal movie recommendation webpage with semantic HTML structure and accessibility features.
+- **Skills**: HTML5 semantic elements (header, main, section, footer), document structure and organization, text content markup, meta tags for responsive design, and web accessibility principles.
+
 </details>
 
 <details>
