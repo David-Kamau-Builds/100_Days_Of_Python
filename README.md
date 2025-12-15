@@ -272,7 +272,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 6 - APIs & Web Scraping (Days 36-42) - In Progress</strong></summary>
+<summary><strong>📁 Week 6 - APIs & Web Scraping (Days 36-42) - Complete</strong></summary>
 
 ### Day 36 - Stock Trading News Alert Project
 - **Concept**: Financial Data API Integration and Multi-Platform Notifications.
@@ -322,9 +322,12 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 7 - Data Analysis (Days 43-49) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 7 - Web Development (Days 43-49) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 43 - Introduction to CSS
+- **Concept**: Web Foundations and CSS Styling Fundamentals.
+- **Project**: Introduction to Cascading Style Sheets for styling and formatting web pages, focusing on selectors, properties, and layout fundamentals.
+- **Skills**: CSS syntax and structure, selector specificity and inheritance, box model manipulation, text and font styling, color theory and application, and basic layout techniques.
 
 </details>
 
