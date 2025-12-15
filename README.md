@@ -9,8 +9,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 3**: OOP & GUI (Days 15-21) - Complete
 - ✅ **Week 4**: OOP & GUI (Days 22-28) - Complete
 - ✅ **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - Complete
-- 🔄 **Week 6**: APIs & Web Scraping (Days 36-42) - In Progress
-- ⏳ **Week 7**: Data Analysis (Days 43-49) - Coming Soon
+- ✅ **Week 6**: APIs & Web Scraping (Days 36-42) - Complete
+- 🔄 **Week 7**: Web Development Foundations (Days 43-49) - In Progress
 - ⏳ **Week 8**: Web Development (Days 50-56) - Coming Soon
 - ⏳ **Week 9**: GUI Applications (Days 57-63) - Coming Soon
 - ⏳ **Week 10**: Game Development (Days 64-70) - Coming Soon
@@ -322,7 +322,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 7 - Web Development (Days 43-49) - In Progress</strong></summary>
+<summary><strong>📁 Week 7 - Web Development Foundations (Days 43-49) - In Progress</strong></summary>
 
 ### Day 43 - Introduction to CSS
 - **Concept**: Web Foundations and CSS Styling Fundamentals.
