@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.poster {
+    max-width: 600px;
+    width: 100%;
+}
+
+.poster-image {
+    margin-bottom: 2rem;
+}
+
+.poster-image img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ac9909;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(172, 153, 9, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.poster-image img:hover {
+    transform: scale(1.02);
+}
+
+.poster-message h1 {
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    color: #ac9909;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.poster-message p {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    .poster-image img {
+        border-width: 3px;
+    }
+    
+    .poster-message h1 {
+        letter-spacing: 1px;
+    }
+}
