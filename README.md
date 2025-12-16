@@ -329,6 +329,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Introduction to Cascading Style Sheets for styling and formatting web pages, focusing on selectors, properties, and layout fundamentals.
 - **Skills**: CSS syntax and structure, selector specificity and inheritance, box model manipulation, text and font styling, color theory and application, and basic layout techniques.
 
+### Day 44 - Intermediate CSS - Motivational Poster
+- **Concept**: Advanced CSS Layout and Responsive Design Techniques.
+- **Project**: A responsive motivational poster webpage showcasing intermediate CSS techniques including flexbox layouts, responsive design, hover effects, and modern typography using Google Fonts.
+- **Skills**: Flexbox for layout and alignment, CSS `clamp()` function for responsive typography, CSS transitions and transforms, media queries for responsive design, box-shadow and text-shadow effects, and CSS custom properties.
+
 </details>
 
 <details>
