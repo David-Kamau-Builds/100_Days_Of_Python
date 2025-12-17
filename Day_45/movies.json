@@ -1,0 +1,402 @@
+[
+    {
+        "rank": 1,
+        "title": "The Godfather"
+    },
+    {
+        "rank": 2,
+        "title": "The Empire Strikes Back"
+    },
+    {
+        "rank": 3,
+        "title": "The Dark Knight"
+    },
+    {
+        "rank": 4,
+        "title": "The Shawshank Redemption"
+    },
+    {
+        "rank": 5,
+        "title": "Pulp Fiction"
+    },
+    {
+        "rank": 6,
+        "title": "Goodfellas"
+    },
+    {
+        "rank": 7,
+        "title": "Raiders Of The Lost Ark"
+    },
+    {
+        "rank": 8,
+        "title": "Jaws"
+    },
+    {
+        "rank": 9,
+        "title": "Star Wars"
+    },
+    {
+        "rank": 10,
+        "title": "The Lord Of The Rings: The Fellowship Of The Ring"
+    },
+    {
+        "rank": 11,
+        "title": "Back To The Future"
+    },
+    {
+        "rank": 12,
+        "title": "12: The Godfather Part II"
+    },
+    {
+        "rank": 13,
+        "title": "Blade Runner"
+    },
+    {
+        "rank": 14,
+        "title": "Alien"
+    },
+    {
+        "rank": 15,
+        "title": "Spirited Away"
+    },
+    {
+        "rank": 15,
+        "title": "Aliens"
+    },
+    {
+        "rank": 16,
+        "title": "The Lord Of The Rings: The Return Of The King"
+    },
+    {
+        "rank": 17,
+        "title": "Fight Club"
+    },
+    {
+        "rank": 18,
+        "title": "Inception"
+    },
+    {
+        "rank": 19,
+        "title": "Jurassic Park"
+    },
+    {
+        "rank": 20,
+        "title": "Die Hard"
+    },
+    {
+        "rank": 21,
+        "title": "2001: A Space Odyssey"
+    },
+    {
+        "rank": 22,
+        "title": "Apocalypse Now"
+    },
+    {
+        "rank": 23,
+        "title": "The Lord Of The Rings: The Two Towers"
+    },
+    {
+        "rank": 24,
+        "title": "The Matrix"
+    },
+    {
+        "rank": 25,
+        "title": "Terminator 2: Judgment Day"
+    },
+    {
+        "rank": 26,
+        "title": "Heat"
+    },
+    {
+        "rank": 27,
+        "title": "The Good, The Bad And The Ugly"
+    },
+    {
+        "rank": 28,
+        "title": "Casablanca"
+    },
+    {
+        "rank": 29,
+        "title": "The Big Lebowski"
+    },
+    {
+        "rank": 30,
+        "title": "Seven"
+    },
+    {
+        "rank": 31,
+        "title": "Taxi Driver"
+    },
+    {
+        "rank": 32,
+        "title": "The Usual Suspects"
+    },
+    {
+        "rank": 33,
+        "title": "Schindler's List"
+    },
+    {
+        "rank": 34,
+        "title": "Guardians Of The Galaxy"
+    },
+    {
+        "rank": 35,
+        "title": "The Shining"
+    },
+    {
+        "rank": 36,
+        "title": "The Departed"
+    },
+    {
+        "rank": 37,
+        "title": "The Thing"
+    },
+    {
+        "rank": 38,
+        "title": "Mad Max: Fury Road"
+    },
+    {
+        "rank": 39,
+        "title": "Saving Private Ryan"
+    },
+    {
+        "rank": 40,
+        "title": "12 Angry Men"
+    },
+    {
+        "rank": 41,
+        "title": "Eternal Sunshine Of The Spotless Mind"
+    },
+    {
+        "rank": 42,
+        "title": "There Will Be Blood"
+    },
+    {
+        "rank": 43,
+        "title": "One Flew Over The Cuckoo's Nest"
+    },
+    {
+        "rank": 44,
+        "title": "Gladiator"
+    },
+    {
+        "rank": 45,
+        "title": "Drive"
+    },
+    {
+        "rank": 46,
+        "title": "Citizen Kane"
+    },
+    {
+        "rank": 47,
+        "title": "Interstellar"
+    },
+    {
+        "rank": 48,
+        "title": "The Silence Of The Lambs"
+    },
+    {
+        "rank": 49,
+        "title": "Trainspotting"
+    },
+    {
+        "rank": 50,
+        "title": "Lawrence Of Arabia"
+    },
+    {
+        "rank": 51,
+        "title": "It's A Wonderful Life"
+    },
+    {
+        "rank": 52,
+        "title": "Once Upon A Time In The West"
+    },
+    {
+        "rank": 53,
+        "title": "Psycho"
+    },
+    {
+        "rank": 54,
+        "title": "Vertigo"
+    },
+    {
+        "rank": 55,
+        "title": "Pan's Labyrinth"
+    },
+    {
+        "rank": 56,
+        "title": "Reservoir Dogs"
+    },
+    {
+        "rank": 57,
+        "title": "Whiplash"
+    },
+    {
+        "rank": 58,
+        "title": "Inglourious Basterds"
+    },
+    {
+        "rank": 59,
+        "title": "E.T. \u2013 The Extra Terrestrial"
+    },
+    {
+        "rank": 60,
+        "title": "American Beauty"
+    },
+    {
+        "rank": 61,
+        "title": "Forrest Gump"
+    },
+    {
+        "rank": 62,
+        "title": "La La Land"
+    },
+    {
+        "rank": 63,
+        "title": "Donnie Darko"
+    },
+    {
+        "rank": 64,
+        "title": "L.A. Confidential"
+    },
+    {
+        "rank": 65,
+        "title": "Avengers Assemble"
+    },
+    {
+        "rank": 66,
+        "title": "Return Of The Jedi"
+    },
+    {
+        "rank": 67,
+        "title": "Memento"
+    },
+    {
+        "rank": 68,
+        "title": "Ghostbusters"
+    },
+    {
+        "rank": 69,
+        "title": "Singin' In The Rain"
+    },
+    {
+        "rank": 70,
+        "title": "The Lion King"
+    },
+    {
+        "rank": 71,
+        "title": "Hot Fuzz"
+    },
+    {
+        "rank": 72,
+        "title": "Rear Window"
+    },
+    {
+        "rank": 73,
+        "title": "Seven Samurai"
+    },
+    {
+        "rank": 74,
+        "title": "Mulholland Dr."
+    },
+    {
+        "rank": 75,
+        "title": "Fargo"
+    },
+    {
+        "rank": 76,
+        "title": "A Clockwork Orange"
+    },
+    {
+        "rank": 77,
+        "title": "Toy Story"
+    },
+    {
+        "rank": 78,
+        "title": "Oldboy"
+    },
+    {
+        "rank": 79,
+        "title": "Captain America: Civil War"
+    },
+    {
+        "rank": 81,
+        "title": "The Social Network"
+    },
+    {
+        "rank": 82,
+        "title": "Some Like It Hot"
+    },
+    {
+        "rank": 83,
+        "title": "True Romance"
+    },
+    {
+        "rank": 84,
+        "title": "Rocky"
+    },
+    {
+        "rank": 85,
+        "title": "L\u00e9on"
+    },
+    {
+        "rank": 86,
+        "title": "Indiana Jones And The Last Crusade"
+    },
+    {
+        "rank": 87,
+        "title": "Predator"
+    },
+    {
+        "rank": 88,
+        "title": "The Exorcist"
+    },
+    {
+        "rank": 89,
+        "title": "Shaun Of The Dead"
+    },
+    {
+        "rank": 90,
+        "title": "No Country For Old Men"
+    },
+    {
+        "rank": 91,
+        "title": "The Prestige"
+    },
+    {
+        "rank": 92,
+        "title": "The Terminator"
+    },
+    {
+        "rank": 93,
+        "title": "The Princess Bride"
+    },
+    {
+        "rank": 94,
+        "title": "Lost In Translation"
+    },
+    {
+        "rank": 95,
+        "title": "Arrival"
+    },
+    {
+        "rank": 96,
+        "title": "Good Will Hunting"
+    },
+    {
+        "rank": 97,
+        "title": "Titanic"
+    },
+    {
+        "rank": 98,
+        "title": "Amelie"
+    },
+    {
+        "rank": 99,
+        "title": "Raging Bull"
+    },
+    {
+        "rank": 100,
+        "title": "Stand By Me"
+    }
+]
