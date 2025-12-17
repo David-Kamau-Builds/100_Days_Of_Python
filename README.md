@@ -334,6 +334,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A responsive motivational poster webpage showcasing intermediate CSS techniques including flexbox layouts, responsive design, hover effects, and modern typography using Google Fonts.
 - **Skills**: Flexbox for layout and alignment, CSS `clamp()` function for responsive typography, CSS transitions and transforms, media queries for responsive design, box-shadow and text-shadow effects, and CSS custom properties.
 
+### Day 45 - Web Scraping with Beautiful Soup
+- **Concept**: Web Scraping Fundamentals and Data Extraction.
+- **Project**: Web scraping projects using Beautiful Soup library to extract and parse data from websites, including movie rankings and news articles with data processing and JSON output.
+- **Skills**: Beautiful Soup HTML parsing and navigation, HTTP requests with the requests library, CSS selector syntax for element targeting, regular expressions for data cleaning, JSON file operations and data serialization, and data sorting and manipulation techniques.
+
 </details>
 
 <details>
