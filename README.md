@@ -339,7 +339,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Web scraping projects using Beautiful Soup library to extract and parse data from websites, including movie rankings and news articles with data processing and JSON output.
 - **Skills**: Beautiful Soup HTML parsing and navigation, HTTP requests with the requests library, CSS selector syntax for element targeting, regular expressions for data cleaning, JSON file operations and data serialization, and data sorting and manipulation techniques.
 
-</details>
+### Day 46 - Create a Spotify Playlist using the Musical Time Machine
+- **Concept**: Automated Web Scraping and Spotify API Integration.
+- **Project**: A "Musical Time Machine" that scrapes the Billboard Hot 100 for any historical date and automatically generates a matching, authenticated playlist in the user's Spotify account.
+- **Skills**: Spotify API integration with OAuth2 authentication, web scraping using Beautiful Soup with fallback selector strategies, local HTTP server implementation for OAuth callbacks, secure credential management with environment variables, and advanced JSON data processing for API responses.
 
 <details>
 <summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
