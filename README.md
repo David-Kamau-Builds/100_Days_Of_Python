@@ -344,6 +344,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A "Musical Time Machine" that scrapes the Billboard Hot 100 for any historical date and automatically generates a matching, authenticated playlist in the user's Spotify account.
 - **Skills**: Spotify API integration with OAuth2 authentication, web scraping using Beautiful Soup with fallback selector strategies, local HTTP server implementation for OAuth callbacks, secure credential management with environment variables, and advanced JSON data processing for API responses.
 
+### Day 47 - Automated Jiji Price Tracker
+- **Concept**: Advanced Web Scraping and Automation
+- **Project**: An automated price tracker that monitors Jiji.co.ke for specific products, cleans the data, and sends email alerts for the top deals.
+- **Skills**: Web scraping with Beautiful Soup, handling HTTP headers, SMTP email automation, data cleaning with Regex, and modular code structure.
+
 <details>
 <summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
 
