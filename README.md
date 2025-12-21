@@ -349,6 +349,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated price tracker that monitors Jiji.co.ke for specific products, cleans the data, and sends email alerts for the top deals.
 - **Skills**: Web scraping with Beautiful Soup, handling HTTP headers, SMTP email automation, data cleaning with Regex, and modular code structure.
 
+### Day 48 - Selenium Webdriver Browser Automation
+- **Concept**: Browser Automation, Dynamic Scraping, and Parallel Processing.
+- **Project**: An advanced automated scraping tool for Jiji.co.ke that handles dynamic content, manages multiple browser tabs for parallel data extraction, and generates email reports.
+- **Skills**: Selenium Webdriver configuration, JavaScript execution for scrolling, window handle management, SMTP email composition, and JSON data persistence.
+
 <details>
 <summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
 
