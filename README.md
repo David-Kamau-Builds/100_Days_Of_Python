@@ -11,7 +11,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - Complete
 - ✅ **Week 6**: APIs & Web Scraping (Days 36-42) - Complete
 - ✅ **Week 7**: Web Development Foundations (Days 43-49) - Complete
-- ⏳ **Week 8**: Web Development (Days 50-56) - Coming Soon
+- 🔄 **Week 8**: Web Development (Days 50-56) - In Progress
 - ⏳ **Week 9**: GUI Applications (Days 57-63) - Coming Soon
 - ⏳ **Week 10**: Game Development (Days 64-70) - Coming Soon
 - ⏳ **Week 11**: Automation & Scripting (Days 71-77) - Coming Soon
@@ -373,9 +373,12 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 8 - Web Development (Days 50-56) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 50 - Tinder Bot Automation
+- **Concept**: Selenium WebDriver for complex browser automation, window switching, and modal handling.
+- **Project**: An automated Tinder bot that logs in via Facebook, handles authentication dialogs, and automatically likes profiles continuously.
+- **Skills**: Selenium Webdriver setup, XPath and CSS selectors for element targeting, window handle management for multi-window workflows, keyboard input with Keys, exception handling with ElementClickInterceptedException and NoSuchElementException, environment variable management with python-dotenv, and resilient automation with retry logic.
 
 </details>
 
