@@ -354,6 +354,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An advanced automated scraping tool for Jiji.co.ke that handles dynamic content, manages multiple browser tabs for parallel data extraction, and generates email reports.
 - **Skills**: Selenium Webdriver configuration, JavaScript execution for scrolling, window handle management, SMTP email composition, and JSON data persistence.
 
+### Day 49 - Automated Gym Class Booking Bot
+- **Concept**: Advanced Form Interaction and Interactive Automation
+- **Project**: An intelligent automation tool that navigates a gym booking portal, handles complex authentication flows, scrapes schedules, and provides an interactive CLI for booking classes.
+- **Skills**: Selenium Webdriver, advanced CSS/XPath selectors, custom retry logic, CLI design, state detection, and explicit waits.
+
 <details>
 <summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
 
