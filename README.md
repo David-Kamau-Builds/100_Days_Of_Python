@@ -370,6 +370,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - Built command-line interfaces for user-driven automation workflows
 - Managed credentials and configuration securely with environment variables
 
+</details>
+
 <details>
 <summary><strong>📁 Week 8 - Web Development (Days 50-56) - Coming Soon</strong></summary>
 
