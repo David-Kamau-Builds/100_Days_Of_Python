@@ -380,6 +380,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated Tinder bot that logs in via Facebook, handles authentication dialogs, and automatically likes profiles continuously.
 - **Skills**: Selenium Webdriver setup, XPath and CSS selectors for element targeting, window handle management for multi-window workflows, keyboard input with Keys, exception handling with ElementClickInterceptedException and NoSuchElementException, environment variable management with python-dotenv, and resilient automation with retry logic.
 
+### Day 51 - Internet Speed Twitter Bot
+- **Concept**: Multi-site web automation and data extraction with Selenium WebDriver.
+- **Project**: An automated bot that measures internet speed via speedtest.net and tweets complaints to your internet provider if speeds fall below promised levels.
+- **Skills**: Selenium WebDriver automation across multiple websites, XPath and CSS selectors for element targeting, timing and waits for asynchronous operations, form submission and keyboard input simulation, data extraction from web pages, class-based automation design patterns, and multi-step workflow automation.
+
 </details>
 
 <details>
