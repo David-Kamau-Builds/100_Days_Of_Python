@@ -1,4 +1,3 @@
-```markdown
 # Day 52: Instagram Follower Bot
 
 ## Project Overview
@@ -46,5 +45,3 @@ An automated Instagram bot built with Selenium that targets followers of a speci
 ## Files
 - `main.py` - Main bot script with InstaFollower class handling login, modal navigation, scrolling, and following
 - `.env` - Environment variables file (not included for security) containing `INSTAGRAM_USERNAME` and `INSTAGRAM_PASSWORD`
-
-```
