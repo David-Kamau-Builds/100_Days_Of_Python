@@ -385,6 +385,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated bot that measures internet speed via speedtest.net and tweets complaints to your internet provider if speeds fall below promised levels.
 - **Skills**: Selenium WebDriver automation across multiple websites, XPath and CSS selectors for element targeting, timing and waits for asynchronous operations, form submission and keyboard input simulation, data extraction from web pages, class-based automation design patterns, and multi-step workflow automation.
 
+### Day 52 - Instagram Follower Bot
+- **Concept**: Intelligent browser automation with stealth techniques and human-like interaction patterns.
+- **Project**: An automated Instagram bot that targets followers of a specified account and automatically follows them with configurable limits to avoid detection.
+- **Skills**: Selenium WebDriver automation with stealth configuration, XPath selectors for dynamic elements, explicit waits with WebDriverWait, JavaScript injection for scrolling and element visibility, exception handling for click interception, random delays for human-like behavior, environment variable management, and class-based bot architecture.
+
 </details>
 
 <details>
