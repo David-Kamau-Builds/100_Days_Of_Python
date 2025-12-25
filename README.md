@@ -390,6 +390,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated Instagram bot that targets followers of a specified account and automatically follows them with configurable limits to avoid detection.
 - **Skills**: Selenium WebDriver automation with stealth configuration, XPath selectors for dynamic elements, explicit waits with WebDriverWait, JavaScript injection for scrolling and element visibility, exception handling for click interception, random delays for human-like behavior, environment variable management, and class-based bot architecture.
 
+### Day 53 - Zillow Property Scraper & Google Forms Submission Bot
+- **Concept**: Web scraping and automated form submission with Selenium WebDriver.
+- **Project**: An automated bot that scrapes property listings from a Zillow clone website and automatically submits the collected data to a Google Form with intelligent form handling.
+- **Skills**: Selenium WebDriver setup with explicit waits, CSS selectors with data-test attributes, dynamic element filtering by visibility and state, form input handling with send_keys(), JavaScript injection for scrolling elements into view, multi-page form navigation, automated response submission, and sequential data processing.
+
 </details>
 
 <details>
