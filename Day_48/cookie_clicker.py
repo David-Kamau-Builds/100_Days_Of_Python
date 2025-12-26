@@ -21,7 +21,6 @@ except:
 
 sleep(3)
 
-# Inject a JS loop that clicks the cookie and buys upgrades/products
 driver.execute_script("""
 if (!window.fastClicker) {
     window.fastClicker = setInterval(() => {
