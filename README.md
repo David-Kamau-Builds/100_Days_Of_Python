@@ -395,6 +395,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An automated bot that scrapes property listings from a Zillow clone website and automatically submits the collected data to a Google Form with intelligent form handling.
 - **Skills**: Selenium WebDriver setup with explicit waits, CSS selectors with data-test attributes, dynamic element filtering by visibility and state, form input handling with send_keys(), JavaScript injection for scrolling elements into view, multi-page form navigation, automated response submission, and sequential data processing.
 
+### Day 54 - Decorators - Function Speed Calculation
+- **Concept**: Python decorators for enhancing function behavior and performance monitoring.
+- **Project**: A speed calculation decorator that measures and prints the execution time of functions, demonstrating decorator patterns and their practical application in web frameworks.
+- **Skills**: Creating custom decorators with wrapper functions, using *args and **kwargs for flexible function signatures, time module for performance measurement, decorator syntax with @ symbol, higher-order functions, and real-world decorator usage in Flask routing.
+
 </details>
 
 <details>
