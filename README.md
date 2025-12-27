@@ -400,6 +400,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A speed calculation decorator that measures and prints the execution time of functions, demonstrating decorator patterns and their practical application in web frameworks.
 - **Skills**: Creating custom decorators with wrapper functions, using *args and **kwargs for flexible function signatures, time module for performance measurement, decorator syntax with @ symbol, higher-order functions, and real-world decorator usage in Flask routing.
 
+### Day 55 - Flask Number Guessing Game
+- **Concept**: Building interactive web applications with Flask and dynamic routing.
+- **Project**: A web-based number guessing game where players guess a randomly generated number (0-9) through HTTP requests and receive visual feedback with animated GIFs.
+- **Skills**: Flask application setup and routing, dynamic route parameters with type conversion, conditional game logic, HTML response generation, inline CSS styling, external media embedding, and Flask development server configuration.
+
 </details>
 
 <details>
