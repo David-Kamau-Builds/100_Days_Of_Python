@@ -11,8 +11,8 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 5**: File I/O, Error Handling & APIs (Days 29-35) - Complete
 - ✅ **Week 6**: APIs & Web Scraping (Days 36-42) - Complete
 - ✅ **Week 7**: Web Development Foundations (Days 43-49) - Complete
-- 🔄 **Week 8**: Web Development (Days 50-56) - In Progress
-- ⏳ **Week 9**: GUI Applications (Days 57-63) - Coming Soon
+- ✅ **Week 8**: Web Development (Days 50-56) - Complete
+- 🔄 **Week 9**: GUI Applications (Days 57-63) - In Progress
 - ⏳ **Week 10**: Game Development (Days 64-70) - Coming Soon
 - ⏳ **Week 11**: Automation & Scripting (Days 71-77) - Coming Soon
 - ⏳ **Week 12**: Machine Learning Basics (Days 78-84) - Coming Soon
