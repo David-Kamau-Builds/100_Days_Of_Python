@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Memes - 1 Second Gap</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-flag-checkered"></i>
+                <h1>1 Second Gap</h1>
+            </div>
+            <button type="button" class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/top-memes">Top Memes</a></li>
+                    <li><a href="/new" class="active">New</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Latest F1 Memes</h2>
+            <p>Fresh and newly added F1 memes! Check back regularly for the latest funny moments from Formula 1.</p>
+        </section>
+
+        <section class="filter-section">
+            <h3>Filter by Tags</h3>
+            <div id="filter-tags" class="filter-tags">
+                <!-- Tags will be dynamically generated here -->
+            </div>
+        </section>
+
+        <div id="memes-grid" class="memes-container">
+            <!-- Memes will be dynamically loaded here -->
+        </div>
+
+        <div id="loader" class="loader">
+            <i class="fas fa-spinner fa-3x"></i>
+            <p>Loading new F1 memes...</p>
+        </div>
+
+        <button id="load-more-btn" class="load-more-btn" style="display:none;">
+            Load More Memes
+        </button>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-reddit"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">© 2026 1 Second Gap. All memes belong to their respective owners. This is a fan-made website.</p>
+        </div>
+    </footer>
+    <script src="../static/index.js"></script>
+</body>
+</html>
