@@ -373,7 +373,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 8 - Web Development (Days 50-56) - In Progress</strong></summary>
+<summary><strong>📁 Week 8 - Web Development (Days 50-56) - Complete</strong></summary>
 
 ### Day 50 - Tinder Bot Automation
 - **Concept**: Selenium WebDriver for complex browser automation, window switching, and modal handling.
