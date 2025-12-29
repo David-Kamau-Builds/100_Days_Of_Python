@@ -1,4 +1,3 @@
-```markdown
 # Day 56: Meme Website with Flask
 
 ## Project Overview
@@ -43,5 +42,3 @@ A web application built with Flask that displays a collection of memes. The site
   - `new.html` - Add new meme form
   - `about.html` - About page
   - `top_memes.html` - Featured memes display
-
-```
