@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blogs</title>
+    <link rel="stylesheet" href="../static/blog.css">
+</head>
+<body>
+    <header>
+        <h1>Latest Articles</h1>
+    </header>
+
+<section>
+    {% for blog in all_blogs %}
+    <article style="margin-bottom: 20px; border-bottom: 1px solid #ccc;">
+        <h2>{{ blog.title }}</h2>
+        <h3>{{ blog.subtitle }}</h3>
+        <a href="{{ url_for('get_post', num=blog.id) }}">Read More</a>
+    </article>
+    {% endfor %}
+</section>
+</body>
+</html>
