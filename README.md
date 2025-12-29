@@ -423,9 +423,12 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 9 - GUI Applications (Days 57-63) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 9 - GUI Applications (Days 57-63) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 57 - Templating with Jinja in Flask Applications
+- **Concept**: Jinja2 Templating, Dynamic Routing, and API Integration.
+- **Project**: A blog website and age/gender predictor that fetches data from external APIs and renders it dynamically using Jinja2 templates.
+- **Skills**: Flask route configuration with type converters, consuming APIs with `requests`, Jinja2 syntax (loops, conditionals, filters), and dynamic URL generation.
 
 </details>
 
