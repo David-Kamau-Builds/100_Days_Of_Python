@@ -430,6 +430,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A blog website and age/gender predictor that fetches data from external APIs and renders it dynamically using Jinja2 templates.
 - **Skills**: Flask route configuration with type converters, consuming APIs with `requests`, Jinja2 syntax (loops, conditionals, filters), and dynamic URL generation.
 
+### Day 58 - Web Design with Bootstrap
+- **Concept**: Bootstrap Framework, Responsive Design, and Front-end Integration.
+- **Project**: A responsive landing page application built with Flask and styled using the Bootstrap framework.
+- **Skills**: Bootstrap Grid System, component implementation, linking external assets via CDN, and Flask template rendering.
+
 </details>
 
 <details>
