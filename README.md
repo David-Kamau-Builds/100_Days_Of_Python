@@ -435,6 +435,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A responsive landing page application built with Flask and styled using the Bootstrap framework.
 - **Skills**: Bootstrap Grid System, component implementation, linking external assets via CDN, and Flask template rendering.
 
+### Day 59 - Blog Capstone Part 2: Styling
+- **Concept**: Bootstrap Integration, Responsive Design, and Static Files.
+- **Project**: An enhanced version of the Flask Blog and Age/Gender Guesser, now fully styled using the Bootstrap 5 framework.
+- **Skills**: Integrating Bootstrap with Flask templates, using grid systems, serving static CSS files, and component implementation.
+
 </details>
 
 <details>
