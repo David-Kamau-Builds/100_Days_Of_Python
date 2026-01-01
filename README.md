@@ -440,6 +440,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: An enhanced version of the Flask Blog and Age/Gender Guesser, now fully styled using the Bootstrap 5 framework.
 - **Skills**: Integrating Bootstrap with Flask templates, using grid systems, serving static CSS files, and component implementation.
 
+### Day 60 - Flask Contact Form with Email Integration
+- **Concept**: Flask Form Handling, SMTP Email Integration, and Security Best Practices.
+- **Project**: A professional contact form web application that processes form submissions and automatically sends email notifications via SMTP with unique confirmation tracking.
+- **Skills**: Flask POST request handling, SMTP email automation with STARTTLS encryption, environment variable management for credentials, UUID generation for tracking IDs, form validation, and responsive web design with Font Awesome icons.
+
 </details>
 
 <details>
