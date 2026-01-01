@@ -1,0 +1,1 @@
+// Moved to static/js/message.js
