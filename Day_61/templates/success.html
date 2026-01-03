@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Access Granted - Secrets App{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="result-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 text-success mb-4">Access Granted</h1>
+                <p class="lead mb-4">Congratulations! You've successfully accessed the secret area.</p>
+                
+                <div class="gif-container">
+                    <iframe src="https://giphy.com/embed/Ju7l5y9osyymQ" 
+                            width="480" height="360" 
+                            frameBorder="0" 
+                            class="giphy-embed rounded" 
+                            allowFullScreen
+                            title="Success GIF">
+                    </iframe>
+                    <p class="mt-2">
+                        <small class="text-muted">
+                            <a href="https://giphy.com/gifs/rick-astley-Ju7l5y9osyymQ" target="_blank" rel="noopener">via GIPHY</a>
+                        </small>
+                    </p>
+                </div>
+                
+                <div class="mt-4">
+                    <a href="{{ url_for('home') }}" class="btn btn-custom">Return Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

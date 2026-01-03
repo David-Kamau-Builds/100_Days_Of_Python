@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Access Denied - Secrets App{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="result-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 text-danger mb-4">⛔ Access Denied</h1>
+                <p class="lead mb-4">Sorry, your credentials are incorrect. Please try again with the right email and password.</p>
+                
+                <div class="gif-container">
+                    <iframe src="https://giphy.com/embed/1xeVd1vr43nHO" 
+                            width="480" height="271" 
+                            frameBorder="0" 
+                            class="giphy-embed rounded" 
+                            allowFullScreen
+                            title="Access Denied GIF">
+                    </iframe>
+                    <p class="mt-2">
+                        <small class="text-muted">
+                            <a href="https://giphy.com/gifs/cheezburger-funny-dog-fails-1xeVd1vr43nHO" target="_blank" rel="noopener">via GIPHY</a>
+                        </small>
+                    </p>
+                </div>
+                
+                <div class="mt-4">
+                    <a href="{{ url_for('login') }}" class="btn btn-custom me-2">Try Again</a>
+                    <a href="{{ url_for('home') }}" class="btn btn-outline-secondary">Go Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
