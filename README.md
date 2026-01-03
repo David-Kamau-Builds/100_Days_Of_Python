@@ -445,6 +445,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A professional contact form web application that processes form submissions and automatically sends email notifications via SMTP with unique confirmation tracking.
 - **Skills**: Flask POST request handling, SMTP email automation with STARTTLS encryption, environment variable management for credentials, UUID generation for tracking IDs, form validation, and responsive web design with Font Awesome icons.
 
+### Day 61 - Flask Authentication with WTForms
+- **Concept**: Flask-WTF Integration, CSRF Protection, and Form Validation.
+- **Project**: A secure Flask authentication system using WTForms for form handling, validation, and CSRF protection with flash messaging and responsive design.
+- **Skills**: Flask-WTF form creation with custom validators, CSRF token integration, flash message handling, configuration class design with environment variable validation, Bootstrap form styling, and template inheritance.
+
 </details>
 
 <details>
