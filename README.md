@@ -450,6 +450,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A secure Flask authentication system using WTForms for form handling, validation, and CSRF protection with flash messaging and responsive design.
 - **Skills**: Flask-WTF form creation with custom validators, CSRF token integration, flash message handling, configuration class design with environment variable validation, Bootstrap form styling, and template inheritance.
 
+### Day 62 - Flask Cafe Directory with CSV Data Management
+- **Concept**: Flask-Bootstrap Integration, CSV Data Management, and Custom Form Validation.
+- **Project**: A comprehensive Flask web application for managing a cafe directory with CSV data storage, featuring custom validation, duplicate prevention, and Bootstrap styling.
+- **Skills**: Flask-Bootstrap5 integration, CSV file operations with proper encoding, custom validators for time format and security, duplicate data prevention, flash messaging, and comprehensive error handling with custom error pages.
+
 </details>
 
 <details>
