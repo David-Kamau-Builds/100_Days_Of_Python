@@ -13,7 +13,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 7**: Web Development Foundations (Days 43-49) - Complete
 - ✅ **Week 8**: Web Development (Days 50-56) - Complete
 - ✅ **Week 9**: Web Applications (Days 57-63) - Complete
-- ⏳ **Week 10**: Game Development (Days 64-70) - Coming Soon
+- 🔄 **Week 10**: Game Development (Days 64-70) - In Progress
 - ⏳ **Week 11**: Automation & Scripting (Days 71-77) - Coming Soon
 - ⏳ **Week 12**: Machine Learning Basics (Days 78-84) - Coming Soon
 - ⏳ **Week 13**: Advanced Projects (Days 85-91) - Coming Soon
@@ -473,7 +473,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 10 - Game Development (Days 64-70) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 10 - Game Development (Days 64-70) - In Progress</strong></summary>
 
 Content will be added as the week progresses...
 
