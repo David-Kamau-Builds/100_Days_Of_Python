@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}{% if manual %}Add Movie Manually{% else %}Search Movie{% endif %}{% endblock %}
+
+{% block content %}
+<div class="glass-form-wrapper">
+  <div class="glass-form-card">
+    <div class="form-header">
+      <div class="form-icon-circle">
+        <i class="fa-solid {% if manual %}fa-circle-plus{% else %}fa-magnifying-glass{% endif %}"></i>
+      </div>
+      <h1 class="form-title">{% if manual %}Add Movie Manually{% else %}Add a Movie{% endif %}</h1>
+      <p class="form-subtitle">
+        {% if manual %}
+          Enter the details below to add a movie directly to your collection.
+        {% else %}
+          Search for a movie title to retrieve details automatically.
+        {% endif %}
+      </p>
+    </div>
+
+    <form method="POST" novalidate class="premium-form">
+      {{ form.csrf_token }}
+      
+      {% if manual %}
+        <!-- Full Manual Form Fields -->
+        <div class="form-group">
+          <label for="title"><i class="fa-solid fa-heading"></i> Movie Title</label>
+          {{ form.title(class="form-input", placeholder="e.g. Inception", id="title") }}
+          {% if form.title.errors %}
+            <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i> {{ form.title.errors[0] }}</span>
+          {% endif %}
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="year"><i class="fa-regular fa-calendar"></i> Release Year</label>
+            {{ form.year(class="form-input", placeholder="e.g. 2010", id="year") }}
+            {% if form.year.errors %}
+              <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i> {{ form.year.errors[0] }}</span>
+            {% endif %}
+          </div>
+          <div class="form-group col-6">
+            <label for="rating"><i class="fa-solid fa-star"></i> Rating (out of 10)</label>
+            {{ form.rating(class="form-input", placeholder="e.g. 8.8", id="rating") }}
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description"><i class="fa-solid fa-align-left"></i> Description</label>
+          {{ form.description(class="form-input textarea-input", placeholder="Short overview of the movie...", id="description") }}
+          {% if form.description.errors %}
+            <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i> {{ form.description.errors[0] }}</span>
+          {% endif %}
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="ranking"><i class="fa-solid fa-trophy"></i> Custom Rank</label>
+            {{ form.ranking(class="form-input", placeholder="e.g. 5", id="ranking") }}
+          </div>
+          <div class="form-group col-6">
+            <label for="review"><i class="fa-solid fa-comment-dots"></i> Review Note</label>
+            {{ form.review(class="form-input", placeholder="Your review...", id="review") }}
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="img_url"><i class="fa-solid fa-image"></i> Image URL</label>
+          {{ form.img_url(class="form-input", placeholder="e.g. /static/images/custom.jpg", id="img_url") }}
+          {% if form.img_url.errors %}
+            <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i> {{ form.img_url.errors[0] }}</span>
+          {% endif %}
+        </div>
+
+      {% else %}
+        <!-- Search Form Fields -->
+        <div class="form-group">
+          <label for="title"><i class="fa-solid fa-heading"></i> Movie Title</label>
+          {{ form.title(class="form-input search-large", placeholder="Enter movie title...", id="title", autofocus=True) }}
+          {% if form.title.errors %}
+            <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i> {{ form.title.errors[0] }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="form-actions-row">
+        {{ form.submit(class="form-submit-btn") }}
+        <a href="{{ url_for('home') }}" class="form-cancel-btn"><i class="fa-solid fa-arrow-left"></i> Back</a>
+      </div>
+    </form>
+
+    {% if not manual %}
+      <div class="form-fallback-option">
+        <p>Can't find it? <a href="{{ url_for('add_manual') }}"><i class="fa-solid fa-keyboard"></i> Add movie details manually</a></p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

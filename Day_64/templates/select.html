@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Select Movie{% endblock %}
+
+{% block content %}
+<div class="select-page-container">
+  <div class="select-header">
+    <h1 class="select-title"><i class="fa-solid fa-square-poll-horizontal"></i> Select a Movie</h1>
+    <p class="select-subtitle">Choose the matching movie from the results below to add it to your watchlist.</p>
+  </div>
+
+  {% if movies %}
+    <div class="results-list">
+      {% for movie in movies %}
+        <div class="result-card">
+          <div class="result-poster-wrapper">
+            <img src="{{ movie.img_url }}" alt="{{ movie.title }}" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=600&auto=format&fit=crop';" class="result-poster" />
+          </div>
+          <div class="result-details">
+            <div class="result-title-row">
+              <h3 class="result-movie-title">{{ movie.title }}</h3>
+              <span class="result-movie-year"><i class="fa-regular fa-calendar"></i> {{ movie.release_date.split('-')[0] if movie.release_date else 'N/A' }}</span>
+            </div>
+            <p class="result-movie-desc">{{ movie.description }}</p>
+            <div class="result-actions">
+              <a href="{{ url_for('find', id=movie.id, title=movie.title, year=movie.release_date, description=movie.description, img_url=movie.img_url) }}" class="select-btn-confirm">
+                <i class="fa-solid fa-check"></i> Select this Film
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="no-results-card">
+      <div class="no-results-icon"><i class="fa-solid fa-magnifying-glass-minus"></i></div>
+      <h2>No matches found</h2>
+      <p>We couldn't find any movies matching your search query.</p>
+      <div class="no-results-actions">
+        <a href="{{ url_for('add') }}" class="retry-btn"><i class="fa-solid fa-rotate-left"></i> Try Another Search</a>
+        <a href="{{ url_for('add_manual') }}" class="manual-fallback-btn"><i class="fa-solid fa-keyboard"></i> Enter Details Manually</a>
+      </div>
+    </div>
+  {% endif %}
+</div>
+{% endblock %}

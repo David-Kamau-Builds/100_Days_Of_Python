@@ -1,0 +1,8 @@
+.idea/
+.venv/
+__pycache__/
+*.pyc
+*.db
+instance/
+.env
+**/static/images/

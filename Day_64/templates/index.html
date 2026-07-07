@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block title %}My Watchlist{% endblock %}
+
+{% block content %}
+{% if movies %}
+  <!-- Hero Section: Highlight the #1 Movie -->
+  {% set hero = movies | selectattr('ranking', 'equalto', 1) | first %}
+  {% if not hero %}
+    {% set hero = movies | first %}
+  {% endif %}
+  <section class="hero" style="background-image: linear-gradient(to top, var(--bg-primary) 0%, rgba(20, 20, 20, 0.4) 60%, rgba(20, 20, 20, 0.8) 100%), url('{{ hero.img_url.replace('/w500/', '/w1280/').replace('/w780/', '/w1280/') }}');">
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fa-solid fa-trophy"></i> #{{ hero.ranking }} ON YOUR LIST</div>
+      <h1 class="hero-title">{{ hero.title }}</h1>
+      <div class="hero-meta">
+        <span class="hero-rating"><i class="fa-solid fa-star"></i> {{ hero.rating }}</span>
+        <span class="hero-year"><i class="fa-regular fa-calendar"></i> {{ hero.year }}</span>
+      </div>
+      <p class="hero-description">{{ hero.description }}</p>
+      {% if hero.review %}
+        <div class="hero-review">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <span>{{ hero.review }}</span>
+        </div>
+      {% endif %}
+      <div class="hero-actions">
+        <a href="{{ url_for('edit', id=hero.id) }}" class="hero-btn primary-btn"><i class="fa-solid fa-pen-to-square"></i> Edit Review</a>
+        <a href="{{ url_for('delete', id=hero.id) }}" class="hero-btn secondary-btn delete-btn" onclick="return confirm('Are you sure you want to delete {{ hero.title }}?');"><i class="fa-solid fa-trash-can"></i> Delete</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Collection Grid -->
+  <div class="grid-section">
+    <div class="section-header">
+      <h2 class="section-title"><i class="fa-solid fa-film"></i> My Collection</h2>
+      <p class="section-subtitle">Your personal hall of fame, ranked by rating.</p>
+    </div>
+    
+    <div class="bento-grid">
+      {% for movie in movies %}
+      <div class="bento-item {% if movie.ranking == 1 %}top-featured{% endif %}">
+        <div class="card-image-wrapper">
+          <img src="{{ movie.img_url }}" alt="{{ movie.title }}" loading="lazy" class="movie-poster" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=600&auto=format&fit=crop';" />
+          <span class="ranking-badge rank-{{ movie.ranking }}">#{{ movie.ranking }}</span>
+        </div>
+        <div class="overlay">
+          <div class="overlay-content">
+            <h3 class="item-title">{{ movie.title }}</h3>
+            <div class="item-meta">
+              <span class="item-rating"><i class="fa-solid fa-star"></i> {{ movie.rating if movie.rating else 'N/A' }}</span>
+              <span class="item-year">{{ movie.year }}</span>
+            </div>
+            {% if movie.review %}
+              <p class="item-review">"{{ movie.review }}"</p>
+            {% endif %}
+            <p class="item-description">{{ movie.description }}</p>
+            <div class="item-actions">
+              <a href="{{ url_for('edit', id=movie.id) }}" class="action-btn edit-btn-card"><i class="fa-solid fa-pen"></i> Edit</a>
+              <a href="{{ url_for('delete', id=movie.id) }}" class="action-btn delete-btn-card" onclick="return confirm('Are you sure you want to delete {{ movie.title }}?');"><i class="fa-solid fa-trash"></i> Delete</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% else %}
+  <!-- Empty State -->
+  <div class="empty-state-container">
+    <div class="empty-icon-wrapper">
+      <i class="fa-solid fa-film-slash empty-icon"></i>
+    </div>
+    <h1>Your watchlist is empty</h1>
+    <p>Let's find some masterpieces to add to your collection.</p>
+    <a href="{{ url_for('add') }}" class="cta-btn"><i class="fa-solid fa-plus"></i> Add Movie</a>
+  </div>
+{% endif %}
+
+<!-- Add Movie Floating Action Button -->
+<a href="{{ url_for('add') }}" class="fab" title="Add Movie"><i class="fa-solid fa-plus"></i></a>
+{% endblock %}
