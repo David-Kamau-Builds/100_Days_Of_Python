@@ -475,7 +475,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 <details>
 <summary><strong>📁 Week 10 - Game Development (Days 64-70) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 64 - MyWatchList — Netflix-Style Movie & TV Tracker
+- **Concept**: Full-Stack Flask Application with API Integration, Bento Grid UI, and Database Management.
+- **Project**: A Netflix-inspired movie and TV series watchlist with TMDB API integration, auto-ranking system, and a dark glassmorphic bento grid layout.
+- **Skills**: TMDB API integration with search and detail endpoints, SQLAlchemy ORM with typed Mapped columns, CSS Grid bento layout with spanning items, responsive design with media queries (4→3→2→1 columns), CSS custom properties for design systems, environment variable management with python-dotenv, Flask-WTF CSRF protection and form validation, Jinja2 template inheritance with conditional rendering, image optimization with multiple TMDB sizes (w500/w780/w1280), and database seeding scripts.
 
 </details>
 
