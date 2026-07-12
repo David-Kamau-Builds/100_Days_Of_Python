@@ -480,6 +480,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A Netflix-inspired movie and TV series watchlist with TMDB API integration, auto-ranking system, and a dark glassmorphic bento grid layout.
 - **Skills**: TMDB API integration with search and detail endpoints, SQLAlchemy ORM with typed Mapped columns, CSS Grid bento layout with spanning items, responsive design with media queries (4→3→2→1 columns), CSS custom properties for design systems, environment variable management with python-dotenv, Flask-WTF CSRF protection and form validation, Jinja2 template inheritance with conditional rendering, image optimization with multiple TMDB sizes (w500/w780/w1280), and database seeding scripts.
 
+### Day 66 - Cafe & Wifi RESTful API
+- **Concept**: RESTful API Design, SQLAlchemy ORM, and Secure CRUD Operations.
+- **Project**: A RESTful API for managing a cafe database with wifi availability, power sockets, toilet access, and coffee prices — featuring full CRUD operations with password-protected write endpoints and flexible search functionality.
+- **Skills**: RESTful API design with proper HTTP methods (GET, POST, PUT, PATCH, DELETE), SQLAlchemy DeclarativeBase with typed Mapped columns, JSON serialization with custom `to_dict()` using column introspection, dynamic query building with `where()` clause chaining, password-based route protection via URL parameters, random record selection with `db.func.random()`, form and query string data parsing, and appropriate HTTP status code error handling (400, 403, 404).
+
 </details>
 
 <details>
