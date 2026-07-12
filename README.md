@@ -490,6 +490,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A Flask blog application with full CRUD functionality, rich text editing via CKEditor, Bootstrap toast notifications for form validation errors, and a Bootstrap modal for delete confirmation.
 - **Skills**: RESTful routing with proper HTTP methods (GET, POST), Flask-WTF form creation with DataRequired and URL validators, CKEditor integration for rich text blog content, SQLAlchemy ORM with typed Mapped columns, dynamic form actions using Jinja2 conditionals for shared create/edit templates, Bootstrap 5 toast notifications for validation error display, Bootstrap 5 modal for delete confirmation, pre-populating form fields for edit functionality, and redirect after successful form submission.
 
+### Day 68 - Flask Authentication with Werkzeug & Flask-Login
+- **Concept**: User Authentication, Password Hashing, and Session Management.
+- **Project**: A Flask web application demonstrating user authentication with Werkzeug password hashing (PBKDF2-SHA256) and Flask-Login session management, featuring registration, login, logout, protected routes, and secure file downloads.
+- **Skills**: Werkzeug `generate_password_hash()` with PBKDF2-SHA256 and configurable salt length, `check_password_hash()` for password verification, Flask-Login setup with `LoginManager`, `UserMixin`, and `user_loader` callback, `login_user()`, `logout_user()`, and `current_user` for session management, SQLAlchemy DeclarativeBase with typed Mapped columns, duplicate email detection, flash messages as Bootstrap toast notifications, `send_from_directory()` for secure file downloads, and template conditionals with `current_user.is_authenticated`.
+
 </details>
 
 <details>
