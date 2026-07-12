@@ -485,6 +485,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A RESTful API for managing a cafe database with wifi availability, power sockets, toilet access, and coffee prices — featuring full CRUD operations with password-protected write endpoints and flexible search functionality.
 - **Skills**: RESTful API design with proper HTTP methods (GET, POST, PUT, PATCH, DELETE), SQLAlchemy DeclarativeBase with typed Mapped columns, JSON serialization with custom `to_dict()` using column introspection, dynamic query building with `where()` clause chaining, password-based route protection via URL parameters, random record selection with `db.func.random()`, form and query string data parsing, and appropriate HTTP status code error handling (400, 403, 404).
 
+### Day 67 - Blog with RESTful Routing
+- **Concept**: RESTful Routing, Rich Text Editing, and Full CRUD Blog Application.
+- **Project**: A Flask blog application with full CRUD functionality, rich text editing via CKEditor, Bootstrap toast notifications for form validation errors, and a Bootstrap modal for delete confirmation.
+- **Skills**: RESTful routing with proper HTTP methods (GET, POST), Flask-WTF form creation with DataRequired and URL validators, CKEditor integration for rich text blog content, SQLAlchemy ORM with typed Mapped columns, dynamic form actions using Jinja2 conditionals for shared create/edit templates, Bootstrap 5 toast notifications for validation error display, Bootstrap 5 modal for delete confirmation, pre-populating form fields for edit functionality, and redirect after successful form submission.
+
 </details>
 
 <details>
