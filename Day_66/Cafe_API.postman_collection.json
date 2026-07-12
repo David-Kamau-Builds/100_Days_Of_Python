@@ -1,0 +1,214 @@
+{
+	"info": {
+		"name": "Cafe & Wifi API",
+		"description": "RESTful API for managing a cafe database with CRUD operations.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://127.0.0.1:5000"
+		},
+		{
+			"key": "password",
+			"value": "defaultpassword"
+		}
+	],
+	"item": [
+		{
+			"name": "GET - Random Cafe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/random",
+					"host": ["{{base_url}}"],
+					"path": ["random"]
+				}
+			}
+		},
+		{
+			"name": "GET - One Cafe by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/one/1",
+					"host": ["{{base_url}}"],
+					"path": ["one", "1"]
+				}
+			}
+		},
+		{
+			"name": "GET - All Cafes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/all",
+					"host": ["{{base_url}}"],
+					"path": ["all"]
+				}
+			}
+		},
+		{
+			"name": "GET - Search by Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/search?location=London Bridge",
+					"host": ["{{base_url}}"],
+					"path": ["search"],
+					"query": [
+						{
+							"key": "location",
+							"value": "London Bridge"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "GET - Search by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/search?name=Lighthaus",
+					"host": ["{{base_url}}"],
+					"path": ["search"],
+					"query": [
+						{
+							"key": "name",
+							"value": "Lighthaus"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "GET - Search by Location and Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/search?location=London Bridge&name=Lighthaus",
+					"host": ["{{base_url}}"],
+					"path": ["search"],
+					"query": [
+						{
+							"key": "location",
+							"value": "London Bridge"
+						},
+						{
+							"key": "name",
+							"value": "Lighthaus"
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "POST - Add New Cafe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "New Cafe",
+							"type": "text"
+						},
+						{
+							"key": "map_url",
+							"value": "https://maps.google.com/?q=new+cafe",
+							"type": "text"
+						},
+						{
+							"key": "img_url",
+							"value": "https://example.com/cafe.jpg",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Shoreditch",
+							"type": "text"
+						},
+						{
+							"key": "seats",
+							"value": "20-30",
+							"type": "text"
+						},
+						{
+							"key": "has_toilet",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "has_wifi",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "has_sockets",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "can_take_calls",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "coffee_price",
+							"value": "£2.50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/add/{{password}}",
+					"host": ["{{base_url}}"],
+					"path": ["add", "{{password}}"]
+				}
+			}
+		},
+		{
+			"name": "PATCH - Update Coffee Price",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "new_price",
+							"value": "£3.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/update_price/1/{{password}}",
+					"host": ["{{base_url}}"],
+					"path": ["update_price", "1", "{{password}}"]
+				}
+			}
+		},
+		{
+			"name": "DELETE - Close Cafe",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/close_cafe/1/{{password}}",
+					"host": ["{{base_url}}"],
+					"path": ["close_cafe", "1", "{{password}}"]
+				}
+			}
+		}
+	]
+}
