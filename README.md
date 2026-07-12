@@ -495,6 +495,11 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A Flask web application demonstrating user authentication with Werkzeug password hashing (PBKDF2-SHA256) and Flask-Login session management, featuring registration, login, logout, protected routes, and secure file downloads.
 - **Skills**: Werkzeug `generate_password_hash()` with PBKDF2-SHA256 and configurable salt length, `check_password_hash()` for password verification, Flask-Login setup with `LoginManager`, `UserMixin`, and `user_loader` callback, `login_user()`, `logout_user()`, and `current_user` for session management, SQLAlchemy DeclarativeBase with typed Mapped columns, duplicate email detection, flash messages as Bootstrap toast notifications, `send_from_directory()` for secure file downloads, and template conditionals with `current_user.is_authenticated`.
 
+### Day 69 - Blog with User Authentication, Admin Authorization & Comments
+- **Concept**: User Authentication, Role-Based Authorization, Relational Database Models, and User Comments.
+- **Project**: A Flask blog application with user registration/login, an admin-only decorator for restricting post management, SQLAlchemy one-to-many relationships linking users to posts and comments, and a CKEditor-powered comment system.
+- **Skills**: Custom `admin_only` decorator with `functools.wraps` and `abort(403)`, SQLAlchemy `relationship()` with `back_populates` for bidirectional associations, `db.ForeignKey()` for relational links, Flask-Login session management, Werkzeug password hashing (PBKDF2-SHA256), Flask-WTF forms with CKEditorField, Bootstrap-Flask `render_form()` for template rendering, and Jinja2 conditionals for role-based UI.
+
 </details>
 
 <details>
