@@ -505,6 +505,12 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: A Flask blog application with user registration/login, an admin-only decorator for restricting post management, SQLAlchemy one-to-many relationships linking users to posts and comments, and a CKEditor-powered comment system.
 - **Skills**: Custom `admin_only` decorator with `functools.wraps` and `abort(403)`, SQLAlchemy `relationship()` with `back_populates` for bidirectional associations, `db.ForeignKey()` for relational links, Flask-Login session management, Werkzeug password hashing (PBKDF2-SHA256), Flask-WTF forms with CKEditorField, Bootstrap-Flask `render_form()` for template rendering, and Jinja2 conditionals for role-based UI.
 
+### Day 70 - Git & Version Control
+- **Concept**: Git fundamentals and version control best practices, applied throughout the entire 100-day challenge.
+- **Project**: Conceptual review of Git workflows already in active use — weekly branching strategy, consistent commit messaging, .gitignore configuration, and remote repository management on GitHub.
+- **Skills**: Branch management with weekly branches (Week_1 through Week_10), meaningful commit messages following the `Day_XX Added: <description>` pattern, .gitignore configuration for excluding .env files, virtual environments and databases, and remote repository operations with push and pull.
+
+
 </details>
 
 <details>
