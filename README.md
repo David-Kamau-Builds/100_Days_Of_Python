@@ -524,7 +524,10 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 <details>
 <summary><strong>📁 Week 11 - Data Science & Machine Learning (Days 71-77) - In Progress</strong></summary>
 
-Content will be added as the week progresses...
+### Day 71 - Data Exploration with Pandas
+- **Concept**: Exploratory Data Analysis using Pandas and Jupyter Notebooks.
+- **Project**: Analysis of a PayScale salary dataset covering 50 college majors, answering questions about earning potential, career risk, and degree group comparisons across STEM, HASS, and Business categories.
+- **Skills**: Loading and inspecting CSV data with `pd.read_csv()`, `df.shape`, `df.head()`, and `df.tail()`, null value detection with `df.isna()` and cleaning with `df.dropna()`, column aggregation with `.max()`, `.min()`, `.idxmax()`, and `.idxmin()`, label-based row access with `df.loc[]`, computed column creation and `df.insert()`, sorting with `df.sort_values()`, and group analysis with `df.groupby()`.
 
 </details>
 
