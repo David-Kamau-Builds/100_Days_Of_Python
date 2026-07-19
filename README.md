@@ -14,7 +14,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 8**: Web Development (Days 50-56) - Complete
 - ✅ **Week 9**: Web Applications (Days 57-63) - Complete
 - ✅ **Week 10**: Full-Stack Flask & Web Development (Days 64-70) - Complete
-- ⏳ **Week 11**: Automation & Scripting (Days 71-77) - Coming Soon
+- 🔄 **Week 11**: Data Science & Machine Learning (Days 71-77) - In Progress
 - ⏳ **Week 12**: Machine Learning Basics (Days 78-84) - Coming Soon
 - ⏳ **Week 13**: Advanced Projects (Days 85-91) - Coming Soon
 - ⏳ **Week 14**: Portfolio Projects (Days 92-98) - Coming Soon
@@ -522,7 +522,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 11 - Automation & Scripting (Days 71-77) - Coming Soon</strong></summary>
+<summary><strong>📁 Week 11 - Data Science & Machine Learning (Days 71-77) - In Progress</strong></summary>
 
 Content will be added as the week progresses...
 
