@@ -13,7 +13,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - ✅ **Week 7**: Web Development Foundations (Days 43-49) - Complete
 - ✅ **Week 8**: Web Development (Days 50-56) - Complete
 - ✅ **Week 9**: Web Applications (Days 57-63) - Complete
-- 🔄 **Week 10**: Game Development (Days 64-70) - In Progress
+- ✅ **Week 10**: Full-Stack Flask & Web Development (Days 64-70) - Complete
 - ⏳ **Week 11**: Automation & Scripting (Days 71-77) - Coming Soon
 - ⏳ **Week 12**: Machine Learning Basics (Days 78-84) - Coming Soon
 - ⏳ **Week 13**: Advanced Projects (Days 85-91) - Coming Soon
@@ -473,7 +473,7 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 </details>
 
 <details>
-<summary><strong>📁 Week 10 - Game Development (Days 64-70) - In Progress</strong></summary>
+<summary><strong>📁 Week 10 - Full-Stack Flask & Web Development (Days 64-70) - Complete</strong></summary>
 
 ### Day 64 - MyWatchList — Netflix-Style Movie & TV Tracker
 - **Concept**: Full-Stack Flask Application with API Integration, Bento Grid UI, and Database Management.
@@ -510,6 +510,14 @@ A comprehensive 100-day Python programming challenge organized into 15 weekly br
 - **Project**: Conceptual review of Git workflows already in active use — weekly branching strategy, consistent commit messaging, .gitignore configuration, and remote repository management on GitHub.
 - **Skills**: Branch management with weekly branches (Week_1 through Week_10), meaningful commit messages following the `Day_XX Added: <description>` pattern, .gitignore configuration for excluding .env files, virtual environments and databases, and remote repository operations with push and pull.
 
+**Week 10 Learning Outcomes:**
+- Full-Stack Flask Development: Built complete web applications spanning database models, business logic, templating, and front-end styling across multiple projects.
+- RESTful API Design: Designed and implemented a fully RESTful API with proper HTTP methods, status codes, route protection, and JSON serialization.
+- User Authentication & Authorization: Implemented secure registration, login, and session management with Werkzeug and Flask-Login, extended with role-based admin authorization using custom decorators.
+- Relational Database Modelling: Established SQLAlchemy one-to-many relationships with foreign keys and bidirectional back_populates associations.
+- Front-End & Web Design: Built and deployed a live responsive portfolio website using Bootstrap 5, CSS custom properties, and GitHub Pages.
+- Security Best Practices: Applied CSRF protection, password hashing, environment variable management, route protection, and input validation consistently across projects.
+- Version Control: Maintained a structured Git workflow with weekly branches, consistent commit conventions, and proper secret exclusion throughout the challenge.
 
 </details>
 
